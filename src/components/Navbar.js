@@ -1,8 +1,10 @@
 import React from 'react'
 import logo from '../logo.png'
-const Navbra = () => {
+const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+            <div className="container">
+                
             <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..."></img></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -19,8 +21,9 @@ const Navbra = () => {
                 </ul>
 
             </div>
+            </div>
         </nav>
     )
 }
 
-export default Navbra
+export default Navbar

@@ -1,10 +1,10 @@
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css"
-import Navbra from "./components/Navbra";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <Navbra />
+    <Navbar />
 
   );
 }
