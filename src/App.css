@@ -71,3 +71,12 @@ nav ul li {
   font-size: 2rem;
   color: var(--primary-white);
 }
+
+.HeaderTask{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed",sans-serif;
+}
