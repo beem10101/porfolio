@@ -2,6 +2,8 @@
  
 :root {
   --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgb(0,0,0);
 }
 /************************* NAVBAR ***********************/
 body {
@@ -29,4 +31,43 @@ nav ul li {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   color: var(--primary-white) !important;
+  border-top: 00.1875rem solid var(--primary-dark);
+}
+.navbar-brand{
+  max-width: 20.25rem;
+  padding: 0 !important;
+  height: 10rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+.navbar-nav > li > a:hover{
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
+/* ---------------------Header------------------------ */
+.header-wrapper{
+  position: relative;
+  background: url(web_bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed",sans-serif;
+}
+
+.main-info h1{
+  color: var(--primary-white);
+  text-transform: uppercase;
+}
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
 }
