@@ -64,7 +64,7 @@ nav ul li {
 }
 
 .main-info h1{
-  color: var(--primary-white);
+  color: var(--primary-dark);
   text-transform: uppercase;
 }
 .typed-text{
