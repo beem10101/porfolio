@@ -98,3 +98,8 @@ canvas {
   width: 100vw;
   z-index: 1;
 }
+
+.card-img-top{
+  height: 50vh;
+  width: 50vh;
+}
