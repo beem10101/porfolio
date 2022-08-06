@@ -68,6 +68,7 @@ const Aboutme = () => {
       <p>aaa</p>
     </div>
   </div> */}
+  
   </div>
   )
 }
