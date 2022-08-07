@@ -13,18 +13,18 @@ const Aboutme = () => {
     <div>
     <div className='header-wrapper'>
         <div className='main-info'>
-        <h1>port1</h1>
-        <div>
+    <div>
+    <div className='banner-about'>
     <div className='container'>
         <br></br>
         <br></br>
         <br></br>
-        <img className="rounded-circle" src={profile1} width="180" height="180" data-was-processed="true" ></img>
+        <img src={profile1} width="180" height="180" data-was-processed="true" ></img>
         <br></br>
         <br></br>
     </div>
   <div className='HeaderTask'> 
-    <div class="card">
+    <div>
     <a className="anchor" id="about"></a>
     <div className="followWrap">
         <div className="followMeBar fixed">
@@ -49,6 +49,7 @@ const Aboutme = () => {
   </div>
         </div>
         </div>
+    </div>
     </div>
     </div>
 
