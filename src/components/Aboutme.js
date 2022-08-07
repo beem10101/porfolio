@@ -1,12 +1,5 @@
 import React from 'react'
-// import logo from '../logo.png'
-import Typed from 'react-typed'
-
 import profile1 from '../steve1.png'
-import contract1 from '../contract_1.PNG'
-import etherscan1 from '../etherscan_1.PNG'
-import wire1 from '../wire1.PNG'
-import pyExcel from '../pyExcel.PNG'
 
 const Aboutme = () => {
   return (
