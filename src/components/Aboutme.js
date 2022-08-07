@@ -2,7 +2,7 @@ import React from 'react'
 // import logo from '../logo.png'
 import Typed from 'react-typed'
 
-import logo from '../logo.png'
+import profile1 from '../steve1.png'
 import contract1 from '../contract_1.PNG'
 import etherscan1 from '../etherscan_1.PNG'
 import wire1 from '../wire1.PNG'
@@ -19,7 +19,7 @@ const Aboutme = () => {
         <br></br>
         <br></br>
         <br></br>
-        <img className="rounded-circle" src={logo} width="180" height="180" data-was-processed="true" ></img>
+        <img className="rounded-circle" src={profile1} width="180" height="180" data-was-processed="true" ></img>
         <br></br>
         <br></br>
     </div>
