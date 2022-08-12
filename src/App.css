@@ -122,6 +122,10 @@ canvas {
   border-radius :10%;
 }
 
+.banner-about ul{
+  text-align: left;
+}
+
 .typed-name{
   font-size: 3rem;
   color: var(--primary-white);

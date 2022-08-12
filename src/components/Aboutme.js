@@ -8,25 +8,23 @@ const Aboutme = () => {
       <div className='main-info'>
         <div>
         {/* Abuot me */}
+        <h1><b>About me</b></h1>
         <div className='banner-about'>
           <div className='container'> 
-            <br></br>
-            <br></br>
-            <br></br>
-              <img src={profile1} width="180" height="180" data-was-processed="true" ></img>
-            <br></br>
-            <br></br>
+          <br/>
+          <br/>
+          <br/>
+              <img src={profile1} width="400" height="400" data-was-processed="true" ></img>
+            <br/>
+            <br/>
           </div>
           <div className='HeaderTask'> 
             <div>
               <a className="anchor" id="about"></a>
               <div className="followWrap">
-                  <div className="followMeBar fixed">
-                      <h1><b>About me</b></h1>
-                  </div>
               </div>
-              <p >Email: beem25301@gmail.co</p>
-              <p>GitHub : <a href="https://github.com/beem10101" target="_blank">beem10101</a></p>   
+              <h3>Email:beem25301@gmail.com</h3>
+              <h3>GitHub : <a href="https://github.com/beem10101" target="_blank">Beem10101</a></h3>   
               {/* <p>LinkedIn : <a href="https://www.linkedin.com/in/kriskanin/" target="_blank">Kriskanin Hengniran</a></p> */}
             </div>
           </div>
@@ -55,8 +53,12 @@ const Aboutme = () => {
           <div className="followMeBar fixed">
             <h1><b>My skill</b></h1>
               <div>
-                <ul>
-                  <p></p>
+                <ul>           
+                  <h3>programing language</h3>
+                  <p>Python</p>
+                  <p>Java</p>
+                  <p>JavaScript</p>
+                  <p>Html,Css</p>
                 </ul>
               </div>
           </div>

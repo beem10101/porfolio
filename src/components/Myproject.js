@@ -1,13 +1,13 @@
 import React from 'react'
-import Typed from 'react-typed'
 import '../App.css'
 
-import logo from '../logo.png'
+// Activity pic
 import contract1 from '../contract_1.PNG'
 import etherscan1 from '../etherscan_1.PNG'
 import wire1 from '../wire1.PNG'
 import pyExcel from '../pyExcel.PNG'
 
+// certificcate pic
 import img1 from '../portfolio/01.jpg'
 import img2 from '../portfolio/02.jpg'
 import img3 from '../portfolio/03.jpg'
@@ -63,12 +63,13 @@ const Myproject = () => {
               <img class="card-img-top" src={pyExcel} alt="Card image cap"></img>
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
             <br/>
             <br/>
+            {/* Certificcate */}
             <h1>certificcate</h1>
             <div class="container">
               <div class="row align-items-start">
