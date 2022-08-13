@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -17,7 +16,7 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faBars} style={{color: "#ffff"}} />
             </button>
             <Typed className='typed-text'
-            strings={['Welcome','to','myportfolio!']}
+            strings={['Welcome','to','myportfolio!!!']}
             typeSpeed={120}
             backSpeed={60}
             loop
