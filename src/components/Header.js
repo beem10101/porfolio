@@ -21,7 +21,7 @@ function Header() {
                 <div class="row">
                   <div class="col-8 col-sm-6">
                     <Typed className='typed-name'
-                      strings={["Hello I'm Beem!!!"]}
+                      strings={["Hello I'm Beem!"]}
                       typeSpeed={120}/>
                     <div className='HeaderTask'> 
                       <div>
