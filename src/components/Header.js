@@ -2,6 +2,11 @@ import React from 'react'
 import Typed from 'react-typed'
 
 import logo from '../logo.png'
+
+import img1 from '../portfolio/01.jpg'
+import img2 from '../portfolio/02.jpg'
+import img3 from '../portfolio/03.jpg'
+
 function Header() {
   return (
     <div>
@@ -45,6 +50,43 @@ function Header() {
               </div>
               <br/>
               <br/>
+            </div>
+            {/* Slide pic */}
+            <div id='slides' class='carousel slide' data-ride='carousel'>
+              <ul class='carousel-indicators'>
+                <li data-target='#slides' data-slide-to='0' class='active'></li>
+                <li data-target='#slides' data-slide-to='1' ></li>
+                <li data-target='#slides' data-slide-to='2' ></li>
+              </ul>
+              <div class='carousel-inner'>
+                <div class='carousel-item active'>
+                  <img src={img1} width='900' height='600'></img>                                  
+                </div>
+                <div class='carousel-item'>
+                  <img src={img2} width='900' height='600'></img>                                  
+                </div>
+                <div class='carousel-item'>
+                  <img src={img3} width='900' height='600'></img>                                  
+                </div>
+                <a class='carousel-control-prev' 
+                    href='#slides'
+                    role='button'
+                    data-slide='prev'>
+                  <span class='carousel-control-prev-icon'
+                        aria-hidden='true'>
+                  </span>
+                  <span class='sr-only'>Previous</span>
+                </a>
+                <a class='carousel-control-next' 
+                    href='#slides'
+                    role='button'
+                    data-slide='next'>
+                  <span class='carousel-control-next-icon'
+                        aria-hidden='true'>
+                  </span>
+                  <span class='sr-only'>Next</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

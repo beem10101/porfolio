@@ -132,3 +132,11 @@ canvas {
   border: 1px solid white;
   display: inline-block;
 }
+
+.carousel .carousel-indicators > li {
+  background-color :aquamarine;
+}
+
+.carousel .carousel-indicators > li.active{
+  background-color: rgb(50, 216, 8);
+}
