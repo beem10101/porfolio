@@ -121,10 +121,11 @@ canvas {
   background-color: rgb(124, 255, 174);
   border-radius :10%;
 }
-
+/* ---------------------- */
 .banner-about ul{
   text-align: left;
 }
+/* ---------------------- */
 
 .typed-name{
   font-size: 3rem;
