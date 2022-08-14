@@ -2,10 +2,10 @@ import React from 'react'
 import '../App.css'
 
 // Activity pic
-import contract1 from '../contract_1.PNG'
-import etherscan1 from '../etherscan_1.PNG'
-import wire1 from '../wire1.PNG'
-import pyExcel from '../pyExcel.PNG'
+import contract1 from '../activity_pic/contract_1.PNG'
+import etherscan1 from '../activity_pic/etherscan_1.PNG'
+import wire1 from '../activity_pic/wire1.PNG'
+import pyExcel from '../activity_pic/pyExcel.PNG'
 
 // certificcate pic
 import img1 from '../portfolio/01.jpg'
