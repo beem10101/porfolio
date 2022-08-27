@@ -2,6 +2,7 @@ import React from 'react'
 import Typed from 'react-typed'
 
 import logo from '../logo.png'
+import Footer from './Footer'
 
 import img1 from '../portfolio/01.jpg'
 import img2 from '../portfolio/02.jpg'
@@ -90,6 +91,7 @@ function Header() {
             </div>
           </div>
         </div>
+    <Footer/>
       </div>
     </div>
 

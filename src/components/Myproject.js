@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import Footer from './Footer'
 
 // Activity pic
 import contract1 from '../activity_pic/contract_1.PNG'
@@ -99,6 +100,7 @@ const Myproject = () => {
               </div>
             </div>
           </div>
+        <Footer/>
         </div>
     </div>
   )
