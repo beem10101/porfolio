@@ -9,8 +9,9 @@ import React, { PureComponent } from 'react';
 
   const Aboutme = () => {
   return(
-    <div>     
-      <div className='header-wrapper'>
+    <div>
+
+      {/* <div className='header-wrapper'> */}
         <div className='main-info'>
           <br/>
           <br/>
@@ -66,72 +67,49 @@ import React, { PureComponent } from 'react';
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
 
 
-      <div className='header-wrapper'>
-        {/* circle */}
-        <div className='banner-about'>
-          <div className="followMeBar fixed">
-              <h1><b>My skill</b></h1>
-              <div>
-                <ul>
-                  <h3>programing language</h3>
-                    <Circlechart />
-                </ul>
+
+        <div class="contrainer ">
+          <div>
+            <div class="row">
+              <div class="col-6 bg-white">
+                <Barchart />
               </div>
-          </div>
-        </div>
-        <br/> 
-        <br/> 
-        <br/> 
-        {/* radar */}
-        <div className='banner-about'>
-          <Radarchart />
-        </div>
-        <br/>
-        <br/>
-        <br/>
-        <div className='banner-about'>
-          <Barchart />
-        </div>
-      </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-
-      <div class="contrainer ">
-        <div>
-          <div className="header-wrapper">
-          {/* <div className="main-info"> */}
-            {/* Education */}
-            <div className="banner-about">
-              <div className="followMeBar fixed">
-                <h1>
-                  <b>Education</b>
-                </h1>
+              <div class="col-3 bg-white pt-4">
+              <h2><Circlechart/></h2>
+              </div>
+              <div class="col-3 bg-white pt-4">
+              <h2><Circlechart/></h2>
               </div>
             </div>
-          {/* </div> */}
+            <div class="row">
+              <div class="col-6 bg-white">
+                <Barchart />
+              </div>
+              <div class="col-3 bg-white pt-4">
+              <h2><Circlechart/></h2>
+              </div>
+              <div class="col-3 bg-white pt-4">
+              <h2><Circlechart/></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6 bg-white">
+                <Barchart />
+              </div>
+              <div class="col-3 bg-white pt-4">
+              <h2><Circlechart/></h2>
+              </div>
+              <div class="col-3 bg-white pt-4">
+              <h2><Circlechart/></h2>
+              </div>
+            </div>
           </div>
-          <div class="row">
-            <div class="col-6 bg-white">
-              <Barchart />
-              <h2>col-3</h2>
-            </div>
-            <div class="col-3 bg-white">
-              <h2>col-3</h2>
-            </div>
-            <div class="col-3 bg-white">
-              <h2>col-3</h2>
-            </div>
-          </div>
-        </div>
-      </div> 
-      <Footer />
-    </div> 
+        <Footer/>
+      </div>
+    </div>
   )
 }
 export default Aboutme

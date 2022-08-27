@@ -40,7 +40,7 @@ const dataRadar = [
   ];
 const Radarchart = () => {
   return (
-    <div className='banner-about'>
+    <div>
             <ResponsiveContainer width={700} height={500}>
               <RadarChart cx="50%" cy="50%" outerRadius="80%" data={dataRadar}>
                 <PolarGrid />
