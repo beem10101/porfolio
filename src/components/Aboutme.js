@@ -4,7 +4,8 @@ import Footer from './Footer';
 import Barchart from './chart/Barchart';
 import Radarchart from './chart/Radarchart';
 import Circlechart from './chart/Circlechart';
-
+import Gpx from './aboutme1/Gpx';
+import PersonalData from './aboutme1/PersonalData';
 import React, { PureComponent } from 'react';
 
   const Aboutme = () => {
@@ -71,43 +72,36 @@ import React, { PureComponent } from 'react';
 
 
 
-        <div class="contrainer ">
-          <div>
-            <div class="row">
-              <div class="col-6 bg-white">
-                <Barchart />
-              </div>
-              <div class="col-3 bg-white pt-4">
-              <h2><Circlechart/></h2>
-              </div>
-              <div class="col-3 bg-white pt-4">
-              <h2><Circlechart/></h2>
-              </div>
+
+      <div class="contrainer ">
+        <div>
+          <div class="row">
+            <div class="col-3 bg-white">
+              <Barchart />
             </div>
-            <div class="row">
-              <div class="col-6 bg-white">
-                <Barchart />
-              </div>
-              <div class="col-3 bg-white pt-4">
-              <h2><Circlechart/></h2>
-              </div>
-              <div class="col-3 bg-white pt-4">
-              <h2><Circlechart/></h2>
-              </div>
+            <div class="col-3 bg-white pt-4">
+            <h2>aaa</h2>
             </div>
-            <div class="row">
-              <div class="col-6 bg-white">
-                <Barchart />
-              </div>
-              <div class="col-3 bg-white pt-4">
-              <h2><Circlechart/></h2>
-              </div>
-              <div class="col-3 bg-white pt-4">
-              <h2><Circlechart/></h2>
-              </div>
+            <div class="col-3 bg-white pt-4">
+            <h2><Circlechart/></h2>
+            </div>
+            <div class="col-3 bg-white pt-4">
+            <h2><Circlechart/></h2>
             </div>
           </div>
-        <Footer/>
+        </div>
+        <div class='row'>
+          <div class='col-3 bg-white'>
+            <Gpx/>
+          </div>
+          <div class='col-9 bg-white'>
+            <PersonalData/>
+          </div>
+          <div class='col-3 bg-white'>
+            <h1>asdfg</h1>
+          </div>
+        </div>
+      <Footer/>
       </div>
     </div>
   )

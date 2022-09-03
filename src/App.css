@@ -141,3 +141,10 @@ canvas {
 .carousel .carousel-indicators > li.active{
   background-color: rgb(50, 216, 8);
 }
+
+.icon {
+  /* width: 5vh;  */
+  font-size: 25px;
+  cursor: pointer;
+  color: var(--primary-dark) !important
+}

@@ -10,12 +10,12 @@
     text-align: left;
     padding-left:200px ;
 }
-.icon {
+.footer-container .icon {
     width: 5vh; 
-    font-size: 45px;
+    font-size: 40px;
     cursor: pointer;
 }
-.icon > a {
+.footer-container .icon > a {
     color: white;
 
 }
