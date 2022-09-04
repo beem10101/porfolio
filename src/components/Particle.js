@@ -56,6 +56,11 @@ const Particle = () => {
         size: {
           value: { min: 1, max: 5 },
         },
+        background:{
+          color:{
+            value:'#5c99fa',
+          }
+        }
       },
       detectRetina: true,
     }}

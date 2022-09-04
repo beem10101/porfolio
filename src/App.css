@@ -6,9 +6,16 @@
   --primary-dark: rgb(0,0,0);
 }
 /************************* NAVBAR ***********************/
+
+.body-content{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 body {
   font-family: "Roboto Condesed", sans-serif;
 }
+
 .logo {
   width: 7.5rem;
 }

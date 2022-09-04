@@ -3,7 +3,7 @@ import {FaFileImage} from 'react-icons/fa';
 
 const Gpx = () => {
   return (
-  <div class="card ml-5">
+  <div class="card ">
     <div class="card-body">
     <h2 class="card-title">grade</h2>
       <ul class="list-group">

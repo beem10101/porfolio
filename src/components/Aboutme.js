@@ -2,17 +2,20 @@
 import profile1 from '../steve1.png'
 import Footer from './Footer';
 import Barchart from './chart/Barchart';
-import Radarchart from './chart/Radarchart';
-import Circlechart from './chart/Circlechart';
 import Gpx from './aboutme1/Gpx';
 import PersonalData from './aboutme1/PersonalData';
 import React, { PureComponent } from 'react';
+import CirclechartProgramming from './chart/CirclechartProgramming';
+import CirclechartSubject from './chart/CirclechartSubject';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
   const Aboutme = () => {
   return(
-    <div>
-
-      {/* <div className='header-wrapper'> */}
+    <div class='contrainner'>
+      <div className='body-content'>
         <div className='main-info'>
           <br/>
           <br/>
@@ -22,7 +25,7 @@ import React, { PureComponent } from 'react';
             <div class="row">
               <div class="col-sm">
                 {/* Abuot me */}
-                <div className='banner-about'>
+                <div className='banner-about' data-aos='zoom-in-up'>
                 <div className='container'>
                   <br />
                   <br />
@@ -45,7 +48,7 @@ import React, { PureComponent } from 'react';
               </div>
               <div class="col-sm">
                 {/* Education */}
-                <div className='banner-about'>
+                <div className='banner-about' data-aos='fade-right'>
                   <div className="followMeBar fixed">
                     <h1><b>Education</b></h1>
                     <div>
@@ -68,41 +71,63 @@ import React, { PureComponent } from 'react';
             </div>
           </div>
         </div>
-      {/* </div> */}
-
 
 
 
       <div class="contrainer ">
         <div>
           <div class="row">
-            <div class="col-3 bg-white">
-              <Barchart />
+            <div class="col-6">
+              <div className='banner-about' data-aos='fade-left'>
+                <h2>dash</h2>
+                <div class='mt-5 ml-5 text-white'>
+                  <p>aaaaaaaaaaaaaa</p>
+                  <p>aaaaaaaaaaaaaa</p>
+                  <p>aaaaaaaaaaaaaa</p>
+                  <p>aaaaaaaaaaaaaa</p>
+                  <p>aaaaaaaaaaaaaa</p>
+                  <p>aaaaaaaaaaaaaa</p>
+                </div>
+              </div>
             </div>
-            <div class="col-3 bg-white pt-4">
-            <h2>aaa</h2>
+            <div class="col-3">
+              <div className='banner-about' data-aos='fade-up'>
+                <h2>Programming languages</h2>
+                <CirclechartProgramming/>
+              </div>
             </div>
-            <div class="col-3 bg-white pt-4">
-            <h2><Circlechart/></h2>
+            <div class="col-3">
+              <div className='banner-about' data-aos='fade-right'>
+                <h2>subject</h2>
+                <CirclechartSubject/>
+              </div>
             </div>
-            <div class="col-3 bg-white pt-4">
-            <h2><Circlechart/></h2>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-8">
+              <div className='banner-about' data-aos='fade-left'  data-aos-offset="200">
+                <div class='card'>
+                  <Barchart/>
+                </div>
+              </div>
+            </div>
+            <div class='col-6 col-md-4'>
+              <div className='banner-about' data-aos='fade-right'>
+                  <Gpx/>
+              </div>
             </div>
           </div>
         </div>
         <div class='row'>
-          <div class='col-3 bg-white'>
-            <Gpx/>
-          </div>
-          <div class='col-9 bg-white'>
-            <PersonalData/>
-          </div>
-          <div class='col-3 bg-white'>
-            <h1>asdfg</h1>
+          <div class='col-12'>
+            <div className='banner-about' data-aos='fade-right'>
+              <PersonalData/>
+            </div>
           </div>
         </div>
-      <Footer/>
+        </div>
       </div>
+      <Footer/>
     </div>
   )
 }
