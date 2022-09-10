@@ -15,6 +15,9 @@ import img3 from '../portfolio/03.jpg'
 import img4 from '../portfolio/04.png'
 import img5 from '../portfolio/05.jpg'
 import img6 from '../portfolio/06.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Myproject = () => {
   return (
@@ -22,8 +25,20 @@ const Myproject = () => {
         <div className='header-wrapper'>
           <div className='HeaderTask'>
             <h1>project</h1>
+          </div>
+            <svg
+            x='0'
+            y='0'
+            viewBox='0 0 2560 100'>
+              <polygon points='2560 0 2560 100 0 100'>
+                <svg>
+
+                </svg>
+              </polygon>
+            </svg>
+           <div className='HeaderTask bg-white'>
             {/* Smart contract */}
-            <div class='card'>
+            <div class='card' data-aos='zoom-in-up' >
               <h2>Smart contract</h2>
               <img class="card-img-top" src={contract1} alt="Card image cap"></img>
               <div class="card-body">
@@ -35,7 +50,7 @@ const Myproject = () => {
             <br/>
             <br/>
             {/* EtherScan */}
-            <div class='card'>
+            <div class='card' data-aos='zoom-in-up'>
               <h2>EtherScan</h2>
               <img class="card-img-top" src={etherscan1} alt="Card image cap"></img>
               <div class="card-body">
@@ -47,7 +62,7 @@ const Myproject = () => {
             <br/>
             <br/>
             {/* WireShark */}
-            <div class='card'>
+            <div class='card' data-aos='zoom-in-up'>
               <h2>WireShark</h2>
               <img class="card-img-top" src={wire1} alt="Card image cap"></img>
               <div class="card-body">
@@ -59,7 +74,7 @@ const Myproject = () => {
             <br/>
             <br/>
             {/* PyExcel */}
-            <div class='card'>
+            <div class='card' data-aos='zoom-in-up'>
               <h2>PyExcel</h2>
               <img class="card-img-top" src={pyExcel} alt="Card image cap"></img>
               <div class="card-body">
@@ -74,13 +89,13 @@ const Myproject = () => {
             <h1>certificcate</h1>
             <div class="container">
               <div class="row align-items-start">
-                <div class="col">
+                <div class="col" data-aos='zoom-in-up'>
                   <img src={img1} width="350" height="300"></img>
                 </div>
-                <div class="col">
+                <div class="col" data-aos='zoom-in-up'>
                   <img src={img2} width="350" height="300"></img>
                 </div>
-                <div class="col">
+                <div class="col" data-aos='zoom-in-up'>
                   <img src={img3} width="350" height="300"></img>
                 </div>
               </div>
@@ -88,13 +103,13 @@ const Myproject = () => {
               <br/>
               <br/>
               <div class="row align-items-center">
-                <div class="col">
+                <div class="col" data-aos='zoom-in-up'>
                   <img src={img4} width="350" height="300"></img>
                 </div>
-                <div class="col">
+                <div class="col" data-aos='zoom-in-up'>
                   <img src={img5} width="350" height="300"></img>
                 </div>
-                <div class="col">
+                <div class="col" data-aos='zoom-in-up'>
                   <img src={img6} width="350" height="300"></img>
                 </div>
               </div>

@@ -16,6 +16,11 @@ const Particle = () => {
     loaded={particlesLoaded}
     canvasClassName="tsparticles-P"
     options={{
+      background:{
+        color:{
+          value:'#c7f7fc',
+        }
+      },
       particles: {
         color: {
           value: "#000000",
@@ -56,11 +61,6 @@ const Particle = () => {
         size: {
           value: { min: 1, max: 5 },
         },
-        background:{
-          color:{
-            value:'#000000',
-          }
-        }
       },
       detectRetina: true,
     }}

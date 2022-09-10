@@ -81,10 +81,10 @@ AOS.init();
 
       <div class="contrainer ">
         <div>
-          <div class="row">
+          <div class="row mt-5">
             <div class="col-6">
               <div className='banner-about' data-aos='fade-left'>
-                <h2>dash</h2>
+                <h3><b>dash</b></h3>
                 <div class='mt-5 ml-5 text-white'>
                   <p>aaaaaaaaaaaaaa</p>
                   <p>aaaaaaaaaaaaaa</p>
@@ -97,21 +97,26 @@ AOS.init();
             </div>
             <div class="col-3">
               <div className='banner-about' data-aos='fade-up'>
-                <h2>Programming languages</h2>
+                <h3><b>Programming languages</b></h3>
                 <CirclechartProgramming/>
               </div>
             </div>
             <div class="col-3">
               <div className='banner-about' data-aos='fade-right'>
-                <h2>subject</h2>
+                <h3><b>subject</b></h3>
                 <CirclechartSubject/>
               </div>
             </div>
           </div>
-          <div class="row">
+          <div class="row mt-5">
             <div class="col-12 col-sm-6 col-md-8">
               <div className='banner-about' data-aos='fade-left'  data-aos-offset="200">
                 <div class='card'>
+                  <div class='card-body'>
+                    <h3>
+                      <b>Education</b>
+                    </h3>
+                  </div>
                   <Barchart/>
                 </div>
               </div>
@@ -123,9 +128,14 @@ AOS.init();
             </div>
           </div>
         </div>
-        <div class='row'>
+        <div class='row mt-5'>
           <div class='col-12'>
             <div className='banner-about' data-aos='fade-right'>
+              <div class='card-body'>
+                <h3>
+                  <b>Education</b>
+                </h3>
+              </div>
               <PersonalData/>
             </div>
           </div>

@@ -100,8 +100,8 @@ nav ul li {
   font-family: "Roboto condesed",sans-serif;
 }
 
-/* canvas {
-  background: url(web_bg2.png) no-repeat;
+canvas {
+  /* background-color: #b8ecf2; */
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -109,7 +109,7 @@ nav ul li {
   height: 100vh;
   width: 100vw;
   z-index: 1;
-} */
+}
 
 .card-img-top{
   height: 50vh;
@@ -155,4 +155,8 @@ nav ul li {
   font-size: 25px;
   cursor: pointer;
   color: var(--primary-dark) !important
+}
+
+svg > polygon {
+  fill:white;
 }
