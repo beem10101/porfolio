@@ -53,15 +53,20 @@ AOS.init();
                     <h1><b>Education</b></h1>
                     <div>
                       <ul >
+                        <br/>
+                        <br/>
+                        <p >200x-2010:
+                          <strong className='textFont'> kindergarten of thammasat university201 </strong> (pathumthani, Thailand)
+                        </p>
+                        <br/>
+                        <br/>
+                        <p >2011-1016 :
+                          <strong className='textFont'> pathomsuksa thammasat School </strong> (pathumthani, Thailand)
+                        </p>
+                        <br/>
+                        <br/>
                         <p >2017 - present :
                           <strong className='textFont'> thammasat klongluang withayakhom</strong> (pathumthani, Thailand)
-                          <p>----</p>
-                          <p>----</p>
-                          <p>----</p>
-                          <p>----</p>
-                          <p>----</p>
-                          <p>----</p>
-                          <p>----</p>
                         </p>
                       </ul>
                     </div>

@@ -18,10 +18,10 @@ const Particle = () => {
     options={{
       particles: {
         color: {
-          value: "#fffff",
+          value: "#000000",
         },
         links: {
-          color: "#ffffff",
+          color: "#000000",
           distance: 100,
           enable: true,
           opacity: 0.5,
@@ -58,7 +58,7 @@ const Particle = () => {
         },
         background:{
           color:{
-            value:'#5c99fa',
+            value:'#000000',
           }
         }
       },

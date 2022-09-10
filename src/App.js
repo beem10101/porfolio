@@ -10,14 +10,13 @@ import Myproject from './components/Myproject';
 function App() {
   return (
     <>
-    <Particle />
-    <Navbar />
+    <Particle/>
+    <Navbar/>
     <Routes>
       <Route path='/' element={<Header/>}/>
       <Route path='/Aboutme' element={<Aboutme/>}/>
       <Route path='/Myproject' element={<Myproject/>}/>
     </Routes>
-    {/* <Header/> */}
     </>
   );
 }

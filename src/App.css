@@ -14,6 +14,7 @@
 
 body {
   font-family: "Roboto Condesed", sans-serif;
+  /* background-color: var(--primary-dark); */
 }
 
 .logo {
@@ -92,14 +93,14 @@ nav ul li {
   text-align: center;
   font-family: "Roboto Condesed",sans-serif;
 }
-HeaderTask
+
 
 .textFont{
   font-size: 20px;
   font-family: "Roboto condesed",sans-serif;
 }
 
-canvas {
+/* canvas {
   background: url(web_bg2.png) no-repeat;
   background-size: cover;
   background-position: center;
@@ -108,7 +109,7 @@ canvas {
   height: 100vh;
   width: 100vw;
   z-index: 1;
-}
+} */
 
 .card-img-top{
   height: 50vh;
@@ -126,7 +127,7 @@ canvas {
   /* padding: 80px; */
   min-height: 60px;
   background-color: rgb(77, 185, 118);
-  /* border-radius :10%; */
+  border-radius :3%;
 }
 /* ---------------------- */
 .banner-about ul{

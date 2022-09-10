@@ -32,7 +32,7 @@ function Header() {
                           <br/>
                           <br/>
                           <div className="followMeBar fixed">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, dolores sed rem magnam necessitatibus molestias unde obcaecati fuga ex optio. Assumenda, sit animi. Similique, harum dolores. Labore, laborum dolor! Possimus?</p>
+                            <p>Hello, Myname is Beem, I'm 17 years old. I am a person who has a calm personality and does not like chaos.  I love programming Likes to solve problems using logical and rational thinking. I started to have an interest in programming in grade 4. and have tried writing different languages ​​such as python java HTML CSS javascript </p>
                           </div>
                         </div>
                       </div>
