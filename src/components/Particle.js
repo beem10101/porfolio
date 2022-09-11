@@ -18,7 +18,7 @@ const Particle = () => {
     options={{
       background:{
         color:{
-          value:'#c7f7fc',
+          value:'#989bab',
         }
       },
       particles: {

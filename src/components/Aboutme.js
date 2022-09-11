@@ -123,7 +123,7 @@ AOS.init();
             </div>
             <div class='col-6 col-md-4'>
               <div className='banner-about' data-aos='fade-right'>
-                  <Gpx/>
+                <Gpx/>
               </div>
             </div>
           </div>
