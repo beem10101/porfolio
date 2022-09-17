@@ -8,10 +8,14 @@ import etherscan1 from '../activity_pic/etherscan_1.PNG'
 import wire1 from '../activity_pic/wire1.PNG'
 import pyExcel from '../activity_pic/pyExcel.PNG'
 import firebase1 from '../firebase_web1.png'
+import firebase2 from '../firebase_web2.png'
 
 import sol from '../sol.png'
 import html from '../htmlLogo.png'
 import css from '../cssLogo.png'
+import firebase from '../firebase_icon.png'
+import python from '../python.webp'
+import react_icon from '../react_logo.png'
 
 // certificcate pic
 import img1 from '../portfolio/01.jpg'
@@ -176,7 +180,7 @@ const Myproject = () => {
               <h5>Made with:</h5>
               <div class='row mt-5'>
                 <div class='col'>
-                  <img src={sol}
+                  <img src={python}
                     width={30}
                     height={40}>
                   </img>
@@ -203,6 +207,9 @@ const Myproject = () => {
               <div class='card' data-aos='zoom-in-up'>
                 <h2>Firebase</h2>
 
+
+                {/* <img class="card-img-top" alt="Card image cap"></img> */}
+                <div class="card-body">
                 <div>
                   <div id='slides' class='carousel slide' data-ride='carousel'>
                     <ul class='carousel-indicators'>
@@ -210,12 +217,14 @@ const Myproject = () => {
                       <li data-target='#slides' data-slide-to='1' ></li>
                     </ul>
                     <div class='carousel-inner'>
+                      <div className='card-inner'>
+
                       <div class='carousel-item active'>
                         <img src={firebase1} width='1000' height='600'></img>
 
                       </div>
                       <div class='carousel-item'>
-                        <img src={firebase1} width='1000' height='600'></img>
+                        <img src={firebase2} width='1000' height='600'></img>
                       </div>
                       <a class='carousel-control-prev'
                         // href='#slides'
@@ -235,13 +244,10 @@ const Myproject = () => {
                         </span>
                         <span class='sr-only'>Next</span>
                       </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-
-
-                {/* <img class="card-img-top" alt="Card image cap"></img> */}
-                <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
                   <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -250,9 +256,9 @@ const Myproject = () => {
             </div>
             <div class="col bg-dark">
               <h5>Made with:</h5>
-              <div class='row mt-5'>
+              <div class='row mt-5 '>
                 <div class='col'>
-                  <img src={sol}
+                  <img src={firebase}
                     width={30}
                     height={40}>
                   </img>
@@ -268,6 +274,14 @@ const Myproject = () => {
                     width={30}
                     height={40}>
                   </img>
+                </div>
+                <div class='row ml-1 mt-2'>
+                  <div class='col'>
+                    <img src={react_icon}
+                      width={30}
+                      height={40}>
+                    </img>
+                  </div>
                 </div>
               </div>
             </div>
@@ -303,6 +317,8 @@ const Myproject = () => {
               </div>
             </div>
           </div>
+          <br/>
+          <br/>
         </div>
         <Footer />
       </div>

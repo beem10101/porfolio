@@ -4,7 +4,8 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgb(0,0,0);
-  --primary-gray: #f5f3f3 ;
+  --primary-white-gray: #f5f3f3 ;
+  --primary-gray :  #7f7f7f ;
 }
 /************************* NAVBAR ***********************/
 
@@ -127,7 +128,7 @@ canvas {
   padding: 10px 10px 10px 10px;
   /* padding: 80px; */
   min-height: 60px;
-  background-color: var(--primary-gray);
+  background-color: var(--primary-white-gray);
   border-radius :3%;
 }
 /* ---------------------- */
@@ -144,11 +145,11 @@ canvas {
 }
 
 .carousel .carousel-indicators > li {
-  background-color :aquamarine;
+  background-color :rgb(255, 255, 255);
 }
 
 .carousel .carousel-indicators > li.active{
-  background-color: rgb(50, 216, 8);
+  background-color: rgb(122, 122, 122);
 }
 
 .icon {
@@ -164,4 +165,9 @@ svg > polygon {
 
 .nav-color{
   background-color: #2d2d2d;
+}
+
+.carousel-inner > .card-inner {
+  width:950px !important;
+  max-height: 100%;
 }

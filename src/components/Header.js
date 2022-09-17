@@ -53,7 +53,7 @@ function Header() {
               <br/>
             </div>
             {/* Slide pic */}
-            <div id='slides' class='carousel slide' data-ride='carousel'>
+            <div id='slides' class='carousel slide mb-5' data-ride='carousel'>
               <ul class='carousel-indicators'>
                 <li data-target='#slides' data-slide-to='0' class='active'></li>
                 <li data-target='#slides' data-slide-to='1' ></li>

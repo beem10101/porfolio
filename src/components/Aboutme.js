@@ -84,7 +84,7 @@ AOS.init();
           <div class="row mt-5">
             <div class="col-6">
               <div className='banner-about' data-aos='fade-left'>
-                <h3><b>dash</b></h3>
+                <h3><b>About</b></h3>
                 <div class='mt-5 ml-5 text-white'>
                   <p>aaaaaaaaaaaaaa</p>
                   <p>aaaaaaaaaaaaaa</p>
