@@ -4,6 +4,7 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgb(0,0,0);
+  --primary-gray: #f5f3f3 ;
 }
 /************************* NAVBAR ***********************/
 
@@ -119,14 +120,14 @@ canvas {
 .banner-section{
   padding:80px;
   min-height: 60px;
-  background-color: rgb(76, 235, 118);
+  background-color: var(--primary-gray); 
   border-radius :10%;
 }
 .banner-about{
   padding: 10px 10px 10px 10px;
   /* padding: 80px; */
   min-height: 60px;
-  background-color: rgb(77, 185, 118);
+  background-color: var(--primary-gray);
   border-radius :3%;
 }
 /* ---------------------- */
@@ -159,4 +160,8 @@ canvas {
 
 svg > polygon {
   fill: white;
+}
+
+.nav-color{
+  background-color: #2d2d2d;
 }

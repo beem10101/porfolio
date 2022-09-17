@@ -8,6 +8,10 @@ import etherscan1 from '../activity_pic/etherscan_1.PNG'
 import wire1 from '../activity_pic/wire1.PNG'
 import pyExcel from '../activity_pic/pyExcel.PNG'
 
+import sol from '../sol.png'
+import html from '../htmlLogo.png'
+import css from '../cssLogo.png'
+
 // certificcate pic
 import img1 from '../portfolio/01.jpg'
 import img2 from '../portfolio/02.jpg'
@@ -38,49 +42,157 @@ const Myproject = () => {
             </svg>
            <div className='HeaderTask bg-white'>
             {/* Smart contract */}
-            <div class='card' data-aos='zoom-in-up' >
-              <h2>Smart contract</h2>
-              <img class="card-img-top" src={contract1} alt="Card image cap"></img>
-              <div class="card-body">
-                <h5 class="card-title">Smart Contract miniProject</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="https://beem10101.github.io/contract_html/hello.html" target="_blank" class="btn btn-primary">Go somewhere</a>
+            <div class="row">
+              <div class='col-10'>
+                <div class='card' data-aos='zoom-in-up' >
+                  <h2>Smart contract</h2>
+                  <img class="card-img-top" src={contract1} alt="Card image cap"></img>
+                  <div class="card-body">
+                    <h5 class="card-title">Smart Contract miniProject</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://beem10101.github.io/contract_html/hello.html" target="_blank" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col bg-dark">
+                <h5>Made with:</h5>
+                <div class='row mt-5'>
+                  <div class='col'>
+                    <img src={sol}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={html}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={css}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                </div>
               </div>
             </div>
             <br/>
             <br/>
             {/* EtherScan */}
-            <div class='card' data-aos='zoom-in-up'>
-              <h2>EtherScan</h2>
-              <img class="card-img-top" src={etherscan1} alt="Card image cap"></img>
-              <div class="card-body">
-                <h5 class="card-title">deploying on rinkeby</h5>
-                <p class="card-text">---</p>
-                <a href="https://rinkeby.etherscan.io/address/0x2862788b5ce0b980a8d14a41df86ebe09450a5dd" target= "_blank" class="btn btn-primary">Etherscan</a>
+            <div class='row'>
+              <div class='col-10'>
+                <div class='card' data-aos='zoom-in-up'>
+                  <h2>EtherScan</h2>
+                  <img class="card-img-top" src={etherscan1} alt="Card image cap"></img>
+                  <div class="card-body">
+                    <h5 class="card-title">deploying on rinkeby</h5>
+                    <p class="card-text">---</p>
+                    <a href="https://rinkeby.etherscan.io/address/0x2862788b5ce0b980a8d14a41df86ebe09450a5dd" target= "_blank" class="btn btn-primary">Etherscan</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col bg-dark">
+                <h5>Made with:</h5>
+                <div class='row mt-5'>
+                  <div class='col'>
+                    <img src={sol}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={html}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={css}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                </div>
               </div>
             </div>
             <br/>
             <br/>
             {/* WireShark */}
-            <div class='card' data-aos='zoom-in-up'>
-              <h2>WireShark</h2>
-              <img class="card-img-top" src={wire1} alt="Card image cap"></img>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class='row'>
+              <div class='col-10'>
+                <div class='card' data-aos='zoom-in-up'>
+                  <h2>WireShark</h2>
+                  <img class="card-img-top" src={wire1} alt="Card image cap"></img>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col bg-dark">
+                <h5>Made with:</h5>
+                <div class='row mt-5'>
+                  <div class='col'>
+                    <img src={sol}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={html}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={css}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                </div>
               </div>
             </div>
             <br/>
             <br/>
             {/* PyExcel */}
-            <div class='card' data-aos='zoom-in-up'>
-              <h2>PyExcel</h2>
-              <img class="card-img-top" src={pyExcel} alt="Card image cap"></img>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class='row'>
+              <div class='col-10'>
+                <div class='card' data-aos='zoom-in-up'>
+                  <h2>PyExcel</h2>
+                  <img class="card-img-top" src={pyExcel} alt="Card image cap"></img>
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col bg-dark">
+                <h5>Made with:</h5>
+                <div class='row mt-5'>
+                  <div class='col'>
+                    <img src={sol}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={html}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={css}
+                         width={30}
+                         height={40}>
+                    </img>
+                  </div>
+                </div>
               </div>
             </div>
             <br/>
