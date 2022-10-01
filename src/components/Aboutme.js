@@ -114,7 +114,8 @@ AOS.init();
                 <div class='card'>
                   <div class='card-body'>
                     <h3>
-                      <b>Education</b>
+                      {/* <b>Education</b> */}
+                      <b>GPX 5 term</b>
                     </h3>
                   </div>
                   <Barchart/>

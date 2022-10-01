@@ -5,46 +5,18 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip ,ReferenceLine} fro
 
 const dataBar = [
     {
-      name: 'Page A',
-      uv: 4000,
-      pv: 1,
-      amt: 2400,
+      name: 'M4',
+      term1: 3.71,
+      term2: 4.00,
     },
     {
-      name: 'Page B',
-      uv: 3000,
-      pv: 3,
-      amt: 2210,
+      name: 'M5',
+      term1: 4.00,
+      term2: 4.00,
     },
     {
-      name: 'Page C',
-      uv: 2000,
-      pv: 2,
-      amt: 2290,
-    },
-    {
-      name: 'Page D',
-      uv: 2780,
-      pv: 3,
-      amt: 2000,
-    },
-    {
-      name: 'Page E',
-      uv: 1890,
-      pv: 2,
-      amt: 2181,
-    },
-    {
-      name: 'Page F',
-      uv: 2390,
-      pv: 1,
-      amt: 2500,
-    },
-    {
-      name: 'Page G',
-      uv: 3490,
-      pv: 2,
-      amt: 2100,
+      name: 'M6',
+      term1: 3.76,
     },
   ];
 
@@ -52,7 +24,7 @@ const dataBar = [
 const Barchart = () => {
   return (
     <div>
-      <ResponsiveContainer width={700} height={500}>
+      <ResponsiveContainer width={800} height={500}>
         <BarChart
           width={500}
           height={300}
@@ -70,8 +42,9 @@ const Barchart = () => {
           <Tooltip />
           <Legend />
           {/* <Bar dataKey="pv" name='data1' fill="#000000" /> */}
-          <Bar dataKey="pv" fill="#011235" />
-          <ReferenceLine y={4.0} label="Max" stroke="red" />
+          <Bar dataKey="term1" fill="#c77a2e" />
+          <Bar dataKey="term2" fill="#2ec74c" />
+          {/* <ReferenceLine y={3.0}  stroke="red" /> */}
         </BarChart>
       </ResponsiveContainer>
     </div>

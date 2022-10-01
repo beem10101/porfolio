@@ -146,18 +146,6 @@ const Myproject = () => {
                     height={40}>
                   </img>
                 </div>
-                <div class='col'>
-                  <img src={html}
-                    width={30}
-                    height={40}>
-                  </img>
-                </div>
-                <div class='col'>
-                  <img src={css}
-                    width={30}
-                    height={40}>
-                  </img>
-                </div>
               </div>
             </div>
           </div>
@@ -186,16 +174,6 @@ const Myproject = () => {
                   </img>
                 </div>
                 <div class='col'>
-                  <img src={html}
-                    width={30}
-                    height={40}>
-                  </img>
-                </div>
-                <div class='col'>
-                  <img src={css}
-                    width={30}
-                    height={40}>
-                  </img>
                 </div>
               </div>
             </div>

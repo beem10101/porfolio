@@ -5,7 +5,7 @@ import ProgressBar from './ProgressBar'
 const PersonalData = () => {
   const testData = [
     {name:'mind',bgcolor:"#bd1919",completed:80,type:"INTROVERTED"},
-    {name:'energy',bgcolor:"#bd9119",completed:20,type:"INTUITIVE"},
+    {name:'energy',bgcolor:"#fac020",completed:20,type:"INTUITIVE"},
     {name:'nature',bgcolor:"#37bd19",completed:53,type:"FEELING"},
     {name:'tactics',bgcolor:"#1976bd",completed:20,type:"PROSPECTING"},
     {name:'identity',bgcolor:"#bd19a4",completed:53,type:"ASSERTIVE"}
@@ -33,10 +33,6 @@ const PersonalData = () => {
                       </div>  
                     </li>
                   ))}
-                    {/* <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li> */}
                 </ul>
             </div>
          </div>

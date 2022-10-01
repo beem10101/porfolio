@@ -2,13 +2,13 @@ import React from 'react'
 import { ResponsiveContainer, PieChart, Pie, Legend, Cell} from 'recharts';
 
 const data = [
-    { name: 'Group A', value: 100, detail: "Python" },
-    { name: 'Group B', value: 300, detail: "Java" },
-    { name: 'Group C', value: 300, detail: "Javascript" },
-    { name: 'Group D', value: 200, detail: "asd" },
+    { name: 'Group A', value: 500, detail: "Python" },
+    { name: 'Group B', value: 200, detail: "Java" },
+    { name: 'Group C', value: 400, detail: "Javascript" },
+    { name: 'Group D', value: 100, detail: "other" },
   ];
 
-  const COLORS = ["#000000", "#00C49F", "#FFBB2B", "#FF8042"]
+  const COLORS = ["#FFBB2B","#FF8042","#2e99c7", "#00C49F"]
 // const DETAIL
 
 const renderLabel = function (entry) {
