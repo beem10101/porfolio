@@ -30,7 +30,7 @@ AOS.init();
                   <br />
                   <br />
                   <br />
-                  <img src={profile1} width="400" height="400" data-was-processed="true" ></img>
+                  <img src={profile1} width="230" height="230" data-was-processed="true" ></img>
                   <br />
                   <br />
                 </div>
@@ -111,37 +111,37 @@ AOS.init();
           <div class="row mt-5">
             <div class="col-12 col-sm-6 col-md-8">
               <div className='banner-about' data-aos='fade-left'  data-aos-offset="200">
-                <div class='card'>
-                  <div class='card-body'>
+                {/* <div class='card'>
+                  <div class='card-body'> */}
                     <h3>
                       {/* <b>Education</b> */}
                       <b>GPX 5 term</b>
                     </h3>
-                  </div>
                   <Barchart/>
-                </div>
+                {/* </div>
+              </div> */}
               </div>
             </div>
             <div class='col-6 col-md-4'>
-              <div className='banner-about' data-aos='fade-right'>
+              <div  data-aos='fade-right'>
                 <Gpx/>
               </div>
             </div>
           </div>
         </div>
         <div class='row mt-5'>
-          <div class='col-12'>
-            <div className='banner-about' data-aos='fade-right'>
-              <div class='card-body'>
-                <h3>
-                  <b>Education</b>
-                </h3>
-              </div>
+          <div class='col-12' data-aos='fade-right'>
+            {/* <div className='banner-about' data-aos='fade-right'> */}
+              {/* <div class='card-body'> */}
+              {/* </div> */}
               <PersonalData/>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         </div>
+        <br/>
+        <br/>
+        <br/>
       </div>
       <Footer/>
     </div>

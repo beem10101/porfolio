@@ -11,9 +11,10 @@ const PersonalData = () => {
     {name:'identity',bgcolor:"#bd19a4",completed:53,type:"ASSERTIVE"}
   ]
   return (
-    <div class="card">
-      <div class="card-body">
-        <h3 class="card-title"><b>Card title</b></h3>
+    <div class='card'>
+      <div class='class-body'>
+
+        <h3 class="card-title"><b>person/ality</b></h3>
          <div class="row">
             <div class='col-12 col-md-6'>
             <Radarchart/>
@@ -36,8 +37,8 @@ const PersonalData = () => {
                 </ul>
             </div>
          </div>
+        </div>
       </div>
-    </div>
   )
 }
 

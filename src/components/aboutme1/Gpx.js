@@ -50,6 +50,16 @@ const Gpx = () => {
         <a className='icon' target='blank'href='https://github.com/beem10101/porfolio'><FaFileImage/></a>
       </ul>
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
   </div>
   )
 }
