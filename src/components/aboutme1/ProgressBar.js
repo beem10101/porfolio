@@ -5,7 +5,7 @@ const ProgressBar = (props) => {
     const containerStyes = {
         height:20,
         width:'100%',
-        backgroundColor:"e0e0de",
+        // backgroundColor:"e0e0de",
         margin:10
     }
     const fillterStyles = {

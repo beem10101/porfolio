@@ -111,18 +111,12 @@ AOS.init();
           <div class="row mt-5">
             <div class="col-12 col-sm-6 col-md-8">
               <div className='banner-about' data-aos='fade-left'  data-aos-offset="200">
-                {/* <div class='card'>
-                  <div class='card-body'> */}
-                      {/* <b>Education</b> */}
-                    <h3>
-                      <b>GPX 5 term</b>
-                    </h3>
-                  <Barchart/>
-                {/* </div>
-              </div> */}
+                  <h3>
+                    <b>GPX 5 term</b>
+                  </h3>
+                <Barchart/>
               </div>
             </div>
-            <div>
             <div class='col-6 col-md-4'>
               <div data-aos='fade-right'>
                 <div className='banner-about'>
@@ -130,16 +124,13 @@ AOS.init();
                 </div>
               </div>
             </div>
-            </div>
           </div>
         </div>
         <div class='row mt-5'>
           <div class='col-12' data-aos='fade-right'>
-            {/* <div className='banner-about' data-aos='fade-right'> */}
-              {/* <div class='card-body'> */}
-              {/* </div> */}
+            <div className='banner-about'>
               <PersonalData/>
-            {/* </div> */}
+            </div>
           </div>
         </div>
         </div>
