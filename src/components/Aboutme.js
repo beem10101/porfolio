@@ -122,13 +122,15 @@ AOS.init();
               </div> */}
               </div>
             </div>
-            {/* <div className='banner-about'> */}
-              <div class='col-6 col-md-4'>
-                <div  data-aos='fade-right'>
+            <div>
+            <div class='col-6 col-md-4'>
+              <div data-aos='fade-right'>
+                <div className='banner-about'>
                   <Gpx/>
                 </div>
               </div>
-            {/* </div> */}
+            </div>
+            </div>
           </div>
         </div>
         <div class='row mt-5'>

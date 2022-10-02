@@ -3,12 +3,12 @@ import {FaFileImage} from 'react-icons/fa';
 
 const Gpx = () => {
   return (
-  <div class="card ">
-    <div class="card-body">
-    <div>
+  <div>
+    {/* <div class="card-body"> */}
+
     <h2>grade</h2>
-      <ul class="list-group">
-        <li class="list-group-item border-top-0 border-left-0 border-right-0">
+      <ul class="list-group bg-transparent">
+      <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
               <h5 class='font-weight-bold '> Gpx </h5>
@@ -18,7 +18,7 @@ const Gpx = () => {
             </div>
           </div>
         </li>
-        <li class="list-group-item border-top-0 border-left-0 border-right-0">
+        <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
               <h5> a </h5>
@@ -28,7 +28,7 @@ const Gpx = () => {
             </div>
           </div>
         </li>
-        <li class="list-group-item border-top-0 border-left-0 border-right-0">
+        <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
               <h5> math </h5>
@@ -38,7 +38,7 @@ const Gpx = () => {
             </div>
           </div>
         </li>
-        <li class="list-group-item border-top-0 border-left-0 border-right-0">
+        <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
               <h5> thai </h5>
@@ -50,7 +50,6 @@ const Gpx = () => {
         </li>
         <a className='icon' target='blank'href='https://github.com/beem10101/porfolio'><FaFileImage/></a>
       </ul>
-     </div>
     <br/>
     <br/>
     <br/>
@@ -61,8 +60,8 @@ const Gpx = () => {
     <br/>
     <br/>
     <br/>
-    </div>
-    </div>
+   {/* </div> */}
+   </div>
   )
 }
 

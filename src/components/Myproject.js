@@ -94,7 +94,7 @@ const Myproject = () => {
                   <h5 class="card-title">deploying on rinkeby</h5>
                   {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
                   <button type="button" class="btn btn-outline-success">website</button>
-                  <button type="button" class="btn btn-outline-secondary ml-3"><a class='text-dark' target="_blank" href='https://beem10101.github.io/contract_html/hello.html'>source code</a></button>
+                  <a class='text-dark' target="_blank" href='https://beem10101.github.io/contract_html/hello.html'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
               </div>
             </div>
@@ -135,7 +135,7 @@ const Myproject = () => {
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <button type="button" class="btn btn-outline-secondary ml-3"><a class='text-dark' target="_blank" href='https://github.com/beem10101/banance'>source code</a></button>
+                  <a class='text-dark' target="_blank" href='https://github.com/beem10101/banance'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
               </div>
             </div>
@@ -162,7 +162,7 @@ const Myproject = () => {
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
-                  <button type="button" target="_blank" class="btn btn-outline-secondary ml-3 text-dark" href="https://github.com/beem10101/pyexcel" >source code</button>
+                  {/* <button type="button" target="_blank" class="btn btn-outline-secondary ml-3 text-dark" href="https://github.com/beem10101/pyexcel" >source code</button> */}
                   <a class='text-dark' target="_blank" href='https://github.com/beem10101/pyexcel'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
               </div>
@@ -231,7 +231,7 @@ const Myproject = () => {
                 </div>
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a class='text-dark' target="_blank" href='https://github.com/beem10101/React_FireBase'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
               </div>
             </div>
