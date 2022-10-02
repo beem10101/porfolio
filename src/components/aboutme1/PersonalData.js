@@ -11,15 +11,13 @@ const PersonalData = () => {
     {name:'identity',bgcolor:"#bd19a4",completed:53,type:"ASSERTIVE"}
   ]
   return (
-    // <div class='card'>
-    //   <div class='class-body'>ง
       <div>
         <h3><b>personality</b></h3>
          <div class="row">
             <div class='col-12 col-md-6 mt-5 ml-2'>
             <Radarchart/>
             </div>
-            <div class='col-6 col-md-4 mt-5'>
+            <div class='col-6 col-md-4 m-5'>
                 <ul class="list-group">
                   {testData.map((item,idx) =>(
                     <li class="list-group-item">
@@ -38,7 +36,6 @@ const PersonalData = () => {
             </div>
          </div>
        </div>
-    // </div>
   )
 }
 

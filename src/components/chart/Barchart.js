@@ -5,18 +5,36 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip ,ReferenceLine} fro
 
 const dataBar = [
     {
-      name: 'M4',
-      term1: 3.71,
-      term2: 4.00,
+      subject: 'Computer',
+      grade: 3.5,
     },
     {
-      name: 'M5',
-      term1: 4.00,
-      term2: 4.00,
+      subject: 'Math',
+      grade: 3.4,
     },
     {
-      name: 'M6',
-      term1: 3.76,
+      subject: 'Additional Math',
+      grade: 3.8,
+    },
+    {
+      subject: 'Thai',
+      grade: 3.71,
+    },
+    {
+      subject: 'English',
+      grade: 3.6,
+    },
+    {
+      subject: 'Science',
+      grade: 3.2,
+    },
+    {
+      subject: 'Social',
+      grade: 3.9,
+    },
+    {
+      subject: 'Health education',
+      grade: 4.0,
     },
   ];
 
@@ -37,13 +55,12 @@ const Barchart = () => {
             }}
             >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
+          <XAxis dataKey="subject" />
           <YAxis domain={[0,4]}/>
           <Tooltip />
           <Legend />
           {/* <Bar dataKey="pv" name='data1' fill="#000000" /> */}
-          <Bar dataKey="term1" fill="#c77a2e" />
-          <Bar dataKey="term2" fill="#2ec74c" />
+          <Bar dataKey="grade" fill="#3489eb" />
           {/* <ReferenceLine y={3.0}  stroke="red" /> */}
         </BarChart>
       </ResponsiveContainer>

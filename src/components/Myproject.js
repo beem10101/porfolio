@@ -187,53 +187,49 @@ const Myproject = () => {
             <div class='col-10'>
               <div class='card' data-aos='zoom-in-up'>
                 <h2>Firebase</h2>
-
-
-                {/* <img class="card-img-top" alt="Card image cap"></img> */}
                 <div class="card-body">
-                <div>
-                  <div id='slides' class='carousel slide' data-ride='carousel'>
-                    <ul class='carousel-indicators'>
-                      <li data-target='#slides' data-slide-to='0' class='active'></li>
-                      <li data-target='#slides' data-slide-to='1' ></li>
-                    </ul>
-                    <div class='carousel-inner'>
-                      <div className='card-inner'>
+                  <div>
+                    <div id='slides2' class='carousel slide' data-ride='carousel'>
+                      <ul class='carousel-indicators'>
+                        <li data-target='#slides2' data-slide-to='0' class='active'></li>
+                        <li data-target='#slides2' data-slide-to='1' ></li>
+                      </ul>
+                      <div class='carousel-inner'>
+                        <div className='card-inner'>
 
-                      <div class='carousel-item active'>
-                        <img src={firebase1} width='1000' height='600'></img>
+                        <div class='carousel-item active'>
+                          <img src={firebase1} width='1000' height='600'></img>
 
-                      </div>
-                      <div class='carousel-item'>
-                        <img src={firebase2} width='1000' height='600'></img>
-                      </div>
-                      <a class='carousel-control-prev'
-                        // href='#slides'
-                        role='button'
-                        data-slide='prev'>
-                        <span class='carousel-control-prev-icon'
-                          aria-hidden='true'>
-                        </span>
-                        <span class='sr-only'>Previous</span>
-                      </a>
-                      <a class='carousel-control-next'
-                        href='#slides'
-                        role='button'
-                        data-slide='next'>
-                        <span class='carousel-control-next-icon'
-                          aria-hidden='true'>
-                        </span>
-                        <span class='sr-only'>Next</span>
-                      </a>
+                        </div>
+                        <div class='carousel-item'>
+                          <img src={firebase2} width='1000' height='600'></img>
+                        </div>
+                        <a class='carousel-control-prev'
+                          role='button'
+                          data-slide='prev'>
+                          <span class='carousel-control-prev-icon'
+                            aria-hidden='true'>
+                          </span>
+                          <span class='sr-only'>Previous</span>
+                        </a>
+                        <a class='carousel-control-next'
+                          href='#slides2'
+                          role='button'
+                          data-slide='next'>
+                          <span class='carousel-control-next-icon'
+                            aria-hidden='true'>
+                          </span>
+                          <span class='sr-only'>Next</span>
+                        </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
-                  <a class='text-dark' target="_blank" href='https://github.com/beem10101/React_FireBase'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
-                </div>
               </div>
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
+            <a class='text-dark' target="_blank" href='https://github.com/beem10101/React_FireBase'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
             </div>
             <div class="col bg-dark">
               <h5>Made with:</h5>

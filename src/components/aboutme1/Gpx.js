@@ -11,7 +11,27 @@ const Gpx = () => {
       <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5 class='font-weight-bold '> Gpx </h5>
+              <h5 class='font-weight-bold '> Computer </h5>
+            </div>
+            <div class='col-6 col-md-4 text-primary'>
+              <h5 class='font-weight-bold text-primary'> 3.5 </h5>
+            </div>
+          </div>
+        </li>
+      <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
+          <div class='row'>
+            <div class='col-12 col-md-8'>
+              <h5 class='font-weight-bold '> Math </h5>
+            </div>
+            <div class='col-6 col-md-4 text-primary'>
+              <h5 class='font-weight-bold text-primary'> 3.5 </h5>
+            </div>
+          </div>
+        </li>
+      <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
+          <div class='row'>
+            <div class='col-12 col-md-8'>
+              <h5 class='font-weight-bold '> Additional mathematics </h5>
             </div>
             <div class='col-6 col-md-4 text-primary'>
               <h5 class='font-weight-bold text-primary'> 3.5 </h5>
@@ -21,7 +41,7 @@ const Gpx = () => {
         <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5> a </h5>
+              <h5> Thai </h5>
             </div>
             <div class='col-6 col-md-4'>
               <h5 class='text-primary'> 3.5 </h5>
@@ -31,7 +51,7 @@ const Gpx = () => {
         <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5> math </h5>
+              <h5> English </h5>
             </div>
             <div class='col-6 col-md-4'>
               <h5 class='text-primary'> 3.5 </h5>
@@ -41,25 +61,38 @@ const Gpx = () => {
         <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5> thai </h5>
+              <h5> science </h5>
             </div>
             <div class='col-6 col-md-4'>
               <h5 class='text-primary'> 3.5 </h5>
             </div>
           </div>
         </li>
+        <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
+          <div class='row'>
+            <div class='col-12 col-md-8'>
+              <h5> social studies </h5>
+            </div>
+            <div class='col-6 col-md-4'>
+              <h5 class='text-primary'> 3.5 </h5>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
+          <div class='row'>
+            <div class='col-12 col-md-8'>
+              <h5> Health education </h5>
+            </div>
+            <div class='col-6 col-md-4'>
+              <h5 class='text-primary'> 3.5 </h5>
+            </div>
+          </div>
+        </li>
+        <div class='ml-2'>
+        <br/>
         <a className='icon' target='blank'href='https://github.com/beem10101/porfolio'><FaFileImage/></a>
+        </div>
       </ul>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
    {/* </div> */}
    </div>
   )
