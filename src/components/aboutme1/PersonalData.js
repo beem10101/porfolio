@@ -13,8 +13,7 @@ const PersonalData = () => {
   return (
     <div class='card'>
       <div class='class-body'>
-
-        <h3 class="card-title"><b>person/ality</b></h3>
+        <h3><b>personality</b></h3>
          <div class="row">
             <div class='col-12 col-md-6'>
             <Radarchart/>
@@ -37,8 +36,8 @@ const PersonalData = () => {
                 </ul>
             </div>
          </div>
-        </div>
       </div>
+    </div>
   )
 }
 

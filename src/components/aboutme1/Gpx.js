@@ -5,7 +5,8 @@ const Gpx = () => {
   return (
   <div class="card ">
     <div class="card-body">
-    <h2 class="card-title">grade</h2>
+    <div>
+    <h2>grade</h2>
       <ul class="list-group">
         <li class="list-group-item border-top-0 border-left-0 border-right-0">
           <div class='row'>
@@ -49,18 +50,19 @@ const Gpx = () => {
         </li>
         <a className='icon' target='blank'href='https://github.com/beem10101/porfolio'><FaFileImage/></a>
       </ul>
+     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     </div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-  </div>
+    </div>
   )
 }
 

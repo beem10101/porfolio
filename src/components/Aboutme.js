@@ -113,8 +113,8 @@ AOS.init();
               <div className='banner-about' data-aos='fade-left'  data-aos-offset="200">
                 {/* <div class='card'>
                   <div class='card-body'> */}
-                    <h3>
                       {/* <b>Education</b> */}
+                    <h3>
                       <b>GPX 5 term</b>
                     </h3>
                   <Barchart/>
@@ -122,11 +122,13 @@ AOS.init();
               </div> */}
               </div>
             </div>
-            <div class='col-6 col-md-4'>
-              <div  data-aos='fade-right'>
-                <Gpx/>
+            {/* <div className='banner-about'> */}
+              <div class='col-6 col-md-4'>
+                <div  data-aos='fade-right'>
+                  <Gpx/>
+                </div>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div class='row mt-5'>
