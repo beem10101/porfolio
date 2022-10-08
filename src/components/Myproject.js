@@ -16,6 +16,7 @@ import css from '../cssLogo.png'
 import firebase from '../firebase_icon.png'
 import python from '../python.webp'
 import react_icon from '../react_logo.png'
+import wireshark from '../wireshark_logo.png'
 
 // certificcate pic
 import img1 from '../portfolio/01.jpg'
@@ -24,6 +25,8 @@ import img3 from '../portfolio/03.jpg'
 import img4 from '../portfolio/04.png'
 import img5 from '../portfolio/05.jpg'
 import img6 from '../portfolio/06.jpg'
+import img7 from '../portfolio/lifelonglearning.png'
+import img8 from '../portfolio/skooldio.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -93,8 +96,9 @@ const Myproject = () => {
                   <h5 class="card-title">Smart Contract miniProject</h5>
                   <h5 class="card-title">deploying on rinkeby</h5>
                   {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                  <button type="button" class="btn btn-outline-success">website</button>
-                  <a class='text-dark' target="_blank" href='https://beem10101.github.io/contract_html/hello.html'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
+                  {/* <button type="button" class="btn btn-outline-success">website</button> */}
+                  <a class='text-dark' target="_blank" href='https://beem10101.github.io/contract_html/hello.html'><button type="button" class="btn btn-outline-secondary ml-3">website</button></a>
+                  <a class='text-dark' target="_blank" href='https://github.com/beem10101/Smart-contract'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
               </div>
             </div>
@@ -133,7 +137,7 @@ const Myproject = () => {
                 <h2>Web socket</h2>
                 <img class="card-img-top" src={wire1} alt="Card image cap"></img>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  {/* <h5 class="card-title">Card title</h5>/ */}
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a class='text-dark' target="_blank" href='https://github.com/beem10101/banance'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
@@ -143,7 +147,13 @@ const Myproject = () => {
               <h5>Made with:</h5>
               <div class='row mt-5'>
                 <div class='col'>
-                  <img src={sol}
+                  <img src={wireshark}
+                    width={30}
+                    height={40}>
+                  </img>
+                </div>
+                <div class='col'>
+                  <img src={python}
                     width={30}
                     height={40}>
                   </img>
@@ -160,7 +170,7 @@ const Myproject = () => {
                 <h2>PyExcel</h2>
                 <img class="card-img-top" src={pyExcel} alt="Card image cap"></img>
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  {/* <h5 class="card-title">Card title</h5> */}
                   <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
                   {/* <button type="button" target="_blank" class="btn btn-outline-secondary ml-3 text-dark" href="https://github.com/beem10101/pyexcel" >source code</button> */}
                   <a class='text-dark' target="_blank" href='https://github.com/beem10101/pyexcel'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
@@ -176,13 +186,12 @@ const Myproject = () => {
                     height={40}>
                   </img>
                 </div>
-                <div class='col'>
-                </div>
               </div>
             </div>
           </div>
           <br />
           <br />
+          {/* firebase */}
           <div class='row'>
             <div class='col-10'>
               <div class='card' data-aos='zoom-in-up'>
@@ -227,8 +236,8 @@ const Myproject = () => {
                   </div>
                 </div>
               </div>
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">create gui to input info with Python Tkinter and write in Excel</p>
+            {/* <h5 class="card-title">Card title</h5> */}
+            <p class="card-text">Create a website to get the information,store it in Firebase and display it on the website.</p>
             <a class='text-dark' target="_blank" href='https://github.com/beem10101/React_FireBase'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
             </div>
             <div class="col bg-dark">
@@ -270,16 +279,19 @@ const Myproject = () => {
           <div class="container">
             <div class="row align-items-start">
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img1} width="350" height="300"></img>
-                <p>certificate</p>
+                <img src={img8} width="350" height="300"></img>
+                <p>intro to programming with python</p>
+                <p>date:23/10/2021</p>
               </div>
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img2} width="350" height="300"></img>
-                <p>certificate</p>
+                <img src={img5} width="350" height="300"></img>
+                <p>สำรวจหลักสูตรและก้าวแรกcoding</p>
+                <p>date:27/02/2022</p>
               </div>
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img3} width="350" height="300"></img>
-                <p>certificate</p>
+                <img src={img7} width="350" height="300"></img>
+                <p>กิจกรรมlifelong learning</p>
+                <p>date:24/08/2022</p>
               </div>
             </div>
             <br />
@@ -287,16 +299,20 @@ const Myproject = () => {
             <br />
             <div class="row align-items-center">
               <div class="col" data-aos='zoom-in-up'>
+                <img src={img3} width="350" height="300"></img>
+                <p>การเขียนโปรแกรมเบื้องต้นด้วยPython</p>
+                <p>date:06/03/2022</p>
+              </div>
+              <div class="col" data-aos='zoom-in-up'>
+                <img src={img2} width="350" height="300"></img>
+                <p>การเขียนโปรแกรมเบื้องต้นด้วยHtml&Css</p>
+                <p>date:20/02/2022</p>
+              </div>
+              <div class="col mt-5" data-aos='zoom-in-up'>
                 <img src={img4} width="350" height="300"></img>
-                <p>certificate</p>
-              </div>
-              <div class="col" data-aos='zoom-in-up'>
-                <img src={img5} width="350" height="300"></img>
-                <p>certificate</p>
-              </div>
-              <div class="col" data-aos='zoom-in-up'>
-                <img src={img6} width="350" height="300"></img>
-                <p>certificate</p>
+                <p>การทดสอบความรู้"คอมพิวเตอร์และสารสนเทศ"</p>
+                <p>รายวิชา"คอมพิวเตอร์และสารสนเทศเพื่องานอาชีพ"</p>
+                <p>date:17/01/2022</p>
               </div>
             </div>
           </div>
@@ -305,8 +321,8 @@ const Myproject = () => {
         </div>
       </div>
       <Footer />
+      </div>
     </div>
-  </div>
   )
 }
 export default Myproject;

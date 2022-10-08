@@ -6,39 +6,33 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip ,ReferenceLine} fro
 const dataBar = [
     {
       subject: 'Computer',
-      grade: 3.5,
+      grade: 4.0,
     },
     {
       subject: 'Math',
-      grade: 3.4,
+      grade: 3.5,
     },
     {
       subject: 'Additional Math',
-      grade: 3.8,
+      grade: 3.0,
     },
     {
       subject: 'Thai',
-      grade: 3.71,
+      grade: 4.0,
     },
     {
       subject: 'English',
-      grade: 3.6,
+      grade: 4.0,
     },
     {
       subject: 'Science',
-      grade: 3.2,
+      grade: 4.0,
     },
     {
       subject: 'Social',
-      grade: 3.9,
-    },
-    {
-      subject: 'Health education',
       grade: 4.0,
     },
   ];
-
-
 const Barchart = () => {
   return (
     <div>
