@@ -84,8 +84,8 @@ AOS.init();
             <div class="col-6">
               <div className='banner-about ' data-aos='fade-left'>
                 <h3><b>About</b></h3>
-                <div class='mt-5 text-dark'>
-                <p class='followMeBar h4 m-5'>Hello, Myname is Beem, I'm 17 years old. I am a person who has a calm personality and does not like chaos. I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4,and have tried writing different languages ​​such as python java HTML CSS javascript </p>
+                <div class='mt-4 ml-3 text-dark'>
+                <p class='followMeBar h4  '>Hello, Myname is Beem, I'm 17 years old. I am a person who has a calm personality and does not like chaos. I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4,and have tried writing different languages ​​such as python java HTML CSS javascript </p>
                 <br></br>
                 </div>
               </div>
@@ -107,7 +107,7 @@ AOS.init();
             <div class="col-12 col-sm-6 col-md-8">
               <div className='banner-about' data-aos='fade-left'  data-aos-offset="200">
                   <h3>
-                    <b>GPX 5 term</b>
+                    <b class='test-weight-bold'>GPX 5 term</b>
                   </h3>
                 <Barchart/>
               </div>

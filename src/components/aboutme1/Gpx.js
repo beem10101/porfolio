@@ -6,7 +6,7 @@ const Gpx = () => {
   <div>
     {/* <div class="card-body"> */}
 
-    <h2>grade</h2>
+    <h2 class='test-weight-bold'>grade</h2>
       <ul class="list-group bg-transparent">
       <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>

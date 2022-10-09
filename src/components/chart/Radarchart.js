@@ -37,10 +37,10 @@ const Radarchart = () => {
     <div>
             <ResponsiveContainer width={700} height={500}>
               <RadarChart cx="50%" cy="50%" outerRadius="80%" data={dataRadar}>
-                <PolarGrid />
+                <PolarGrid stroke='#84878a'/>
                 <PolarAngleAxis dataKey="subject" />
-                <PolarRadiusAxis />
-                <Radar name="Mike" dataKey="A" stroke="#8884d8" fill="#8884d8" fillOpacity={0.6} />
+                <PolarRadiusAxis stroke='#84878a'/>
+                <Radar name="Mike" dataKey="A" stroke="#8884d8" fill="#58a3e0" fillOpacity={0.6} />
               </RadarChart>
             </ResponsiveContainer>
         </div>

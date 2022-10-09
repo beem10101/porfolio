@@ -31,10 +31,10 @@ function Header() {
                           <br/>
                           <br/>
                           <br/>
-                          <div className="followMeBar fixed">
-                            <h4>Hello, Myname is Beem, I'm 17 years old.I am a person who has a calm personality and does not like chaos.
-                            I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4.
-                            and have tried writing different languages ​​such as python java HTML CSS javascript </h4>
+                          <div className="followMeBar ">
+                            <h4>Hello, My name is Beem, I'm 17 years old.I am a person who has a calm personality and does not like chaos.</h4>
+                            <h4>I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4.</h4>
+                            <h4>and have tried writing different languages ​​such as python java HTML CSS javascript </h4>
                           </div>
                         </div>
                       </div>
