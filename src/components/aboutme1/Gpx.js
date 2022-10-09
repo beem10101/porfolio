@@ -11,7 +11,7 @@ const Gpx = () => {
       <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5 class='font-weight-bold '> Computer </h5>
+              <h5 > Computer </h5>
             </div>
             <div class='col-6 col-md-4 text-primary'>
               <h5 class='font-weight-bold text-primary'> 4.0 </h5>
@@ -21,7 +21,7 @@ const Gpx = () => {
       <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5 class='font-weight-bold '> Math </h5>
+              <h5 > Math </h5>
             </div>
             <div class='col-6 col-md-4 text-primary'>
               <h5 class='font-weight-bold text-primary'> 3.5 </h5>
@@ -31,7 +31,7 @@ const Gpx = () => {
       <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5 class='font-weight-bold '> Additional mathematics </h5>
+              <h5> Additional mathematics </h5>
             </div>
             <div class='col-6 col-md-4 text-primary'>
               <h5 class='font-weight-bold text-primary'> 3.0 </h5>

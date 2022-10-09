@@ -54,7 +54,6 @@ AOS.init();
                     <div>
                       <ul >
                         <br/>
-                        <br/>
                         <p >2011-1016:
                           <strong className='textFont'> Elementary School:pathomsuksa thammasat School</strong> (pathumthani, Thailand)
                         </p>
@@ -83,10 +82,11 @@ AOS.init();
         <div>
           <div class="row mt-5">
             <div class="col-6">
-              <div className='banner-about' data-aos='fade-left'>
+              <div className='banner-about ' data-aos='fade-left'>
                 <h3><b>About</b></h3>
-                <div class='mt-5 ml-5 text-dark'>
-                <p class='h4 m-5'>Hello, Myname is Beem, I'm 17 years old. I am a person who has a calm personality and does not like chaos.  I love programming Likes to solve problems using logical and rational thinking. I started to have an interest in programming in grade 4. and have tried writing different languages ​​such as python java HTML CSS javascript </p>
+                <div class='mt-5 text-dark'>
+                <p class='followMeBar h4 m-5'>Hello, Myname is Beem, I'm 17 years old. I am a person who has a calm personality and does not like chaos. I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4,and have tried writing different languages ​​such as python java HTML CSS javascript </p>
+                <br></br>
                 </div>
               </div>
             </div>

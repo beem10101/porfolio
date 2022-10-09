@@ -36,7 +36,7 @@ const Myproject = () => {
     <div>
       <div className='header-wrapper'>
         <div className='HeaderTask'>
-          <h1>project</h1>
+          <h1 class='font-weight-bold'>project</h1>
         </div>
         <svg
           x='0'
@@ -103,7 +103,7 @@ const Myproject = () => {
               </div>
             </div>
             <div class="col bg-dark">
-              <h5>Made with:</h5>
+              <h5 class='text-white mt-2'>Made with:</h5>
               <div class='row mt-5'>
                 <div class='col'>
                   <img src={sol}
@@ -113,7 +113,7 @@ const Myproject = () => {
                 </div>
                 <div class='col'>
                   <img src={html}
-                    width={30}
+                    width={40}
                     height={40}>
                   </img>
                 </div>
@@ -144,17 +144,17 @@ const Myproject = () => {
               </div>
             </div>
             <div class="col bg-dark">
-              <h5>Made with:</h5>
+              <h5 class='text-white mt-2'>Made with:</h5>
               <div class='row mt-5'>
                 <div class='col'>
                   <img src={wireshark}
-                    width={30}
+                    width={40}
                     height={40}>
                   </img>
                 </div>
                 <div class='col'>
                   <img src={python}
-                    width={30}
+                    width={40}
                     height={40}>
                   </img>
                 </div>
@@ -178,11 +178,11 @@ const Myproject = () => {
               </div>
             </div>
             <div class="col bg-dark">
-              <h5>Made with:</h5>
+              <h5 class='text-white mt-2'>Made with:</h5>
               <div class='row mt-5'>
                 <div class='col'>
                   <img src={python}
-                    width={30}
+                    width={40}
                     height={40}>
                   </img>
                 </div>
@@ -241,17 +241,17 @@ const Myproject = () => {
             <a class='text-dark' target="_blank" href='https://github.com/beem10101/React_FireBase'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
             </div>
             <div class="col bg-dark">
-              <h5>Made with:</h5>
+              <h5 class='text-white mt-2'>Made with:</h5>
               <div class='row mt-5 '>
                 <div class='col'>
                   <img src={firebase}
-                    width={30}
-                    height={40}>
+                    width={45}
+                    height={45}>
                   </img>
                 </div>
                 <div class='col'>
                   <img src={html}
-                    width={30}
+                    width={40}
                     height={40}>
                   </img>
                 </div>
@@ -264,7 +264,7 @@ const Myproject = () => {
                 <div class='row ml-1 mt-2'>
                   <div class='col'>
                     <img src={react_icon}
-                      width={30}
+                      width={40}
                       height={40}>
                     </img>
                   </div>
@@ -275,7 +275,7 @@ const Myproject = () => {
           <br />
           <br />
           {/* Certificcate */}
-          <h1>certificcate</h1>
+          <h1 class='font-weight-bold'>certificcate</h1>
           <div class="container">
             <div class="row align-items-start">
               <div class="col" data-aos='zoom-in-up'>

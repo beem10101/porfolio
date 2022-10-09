@@ -186,5 +186,6 @@ svg>polygon {
 
 }
 .followMeBar{
-  text-align: left;
+  text-align: justify;
+  text-indent: 50px;
 }
