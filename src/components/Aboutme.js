@@ -75,18 +75,18 @@ AOS.init();
             </div>
           </div>
         </div>
-
-
-
       <div class="contrainer ">
         <div>
           <div class="row mt-5">
             <div class="col-6">
               <div className='banner-about ' data-aos='fade-left'>
                 <h3><b>About</b></h3>
-                <div class='mt-4 ml-3 text-dark'>
-                <p class='followMeBar h4  '>Hello, Myname is Beem, I'm 17 years old. I am a person who has a calm personality and does not like chaos. I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4,and have tried writing different languages ​​such as python java HTML CSS javascript </p>
-                <br></br>
+                <div class='mt-5 md-3 text-dark'>
+                <p class='followMeBar h3 mr-3 '>This page is about my programming abilities, educational background, and my traits.</p>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
                 </div>
               </div>
             </div>

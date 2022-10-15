@@ -32,9 +32,9 @@ function Header() {
                           <br/>
                           <br/>
                           <div className="followMeBar ">
-                            <h4>Hello, My name is Beem, I'm 17 years old.I am a person who has a calm personality and does not like chaos.</h4>
-                            <h4>I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4.</h4>
-                            <h4>and have tried writing different languages ​​such as python java HTML CSS javascript </h4>
+                            <h5>Hello, My name is Beem, I'm 17 years old.I am a person who has a calm personality and does not like chaos.
+                            I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4.
+                            and have tried writing different languages ​​such as python java HTML CSS javascript </h5>
                           </div>
                         </div>
                       </div>
@@ -55,7 +55,7 @@ function Header() {
               <br/>
             </div>
             {/* Slide pic */}
-            <div id='slides' class='carousel slide mb-5' data-ride='carousel'>
+            {/* <div id='slides' class='carousel slide mb-5' data-ride='carousel'>
               <ul class='carousel-indicators'>
                 <li data-target='#slides' data-slide-to='0' class='active'></li>
                 <li data-target='#slides' data-slide-to='1' ></li>
@@ -90,7 +90,7 @@ function Header() {
                   <span class='sr-only'>Next</span>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
     <Footer/>

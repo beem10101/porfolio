@@ -3,19 +3,23 @@ import '../App.css'
 import Footer from './Footer'
 
 // Activity pic
-import contract1 from '../activity_pic/contract_1.PNG'
-import etherscan1 from '../activity_pic/etherscan_1.PNG'
-import wire1 from '../activity_pic/wire1.PNG'
-import pyExcel from '../activity_pic/pyExcel.PNG'
 import firebase1 from '../firebase_web1.png'
 import firebase2 from '../firebase_web2.png'
-
+import wire1 from '../activity_pic/wire1.PNG'
+import pyExcel from '../activity_pic/pyExcel.PNG'
+import contract1 from '../activity_pic/contract_1.PNG'
+import etherscan1 from '../activity_pic/etherscan_1.PNG'
+//icon
 import sol from '../sol.png'
-import html from '../htmlLogo.png'
 import css from '../cssLogo.png'
-import firebase from '../firebase_icon.png'
+import remix from '../remix.png'
+import html from '../htmlLogo.png'
 import python from '../python.webp'
+import tkinter from '../tkinter.png'
+import binance from '../binance-logo.png'
+import Excel from '../Microsoft_Excel.png'
 import react_icon from '../react_logo.png'
+import firebase from '../firebase_icon.png'
 import wireshark from '../wireshark_logo.png'
 
 // certificcate pic
@@ -93,8 +97,8 @@ const Myproject = () => {
                       </div>
                     </div>
                   </div>
-                  <h5 class="card-title">Smart Contract miniProject</h5>
-                  <h5 class="card-title">deploying on rinkeby</h5>
+                  <h5 class="card-title">Smart Contract miniProject and deploying on rinkeby</h5>
+                  {/* <h5 class="card-title">deploying on rinkeby</h5> */}
                   {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
                   {/* <button type="button" class="btn btn-outline-success">website</button> */}
                   <a class='text-dark' target="_blank" href='https://beem10101.github.io/contract_html/hello.html'><button type="button" class="btn btn-outline-secondary ml-3">website</button></a>
@@ -122,6 +126,14 @@ const Myproject = () => {
                     width={30}
                     height={40}>
                   </img>
+                </div>
+                <div class='row'>
+                  <div class='col ml-2 mt-4'>
+                    <img src={remix}
+                      width={60}
+                      height={60}>
+                    </img>
+                  </div>
                 </div>
               </div>
             </div>
@@ -158,6 +170,12 @@ const Myproject = () => {
                     height={40}>
                   </img>
                 </div>
+                <div class='col'>
+                  <img src={binance}
+                    width={40}
+                    height={40}>
+                  </img>
+                </div>
               </div>
             </div>
           </div>
@@ -182,6 +200,18 @@ const Myproject = () => {
               <div class='row mt-5'>
                 <div class='col'>
                   <img src={python}
+                    width={40}
+                    height={40}>
+                  </img>
+                </div>
+                <div class='col'>
+                  <img src={tkinter}
+                    width={35}
+                    height={35}>
+                  </img>
+                </div>
+                <div class='col'>
+                  <img src={Excel}
                     width={40}
                     height={40}>
                   </img>
@@ -240,7 +270,7 @@ const Myproject = () => {
             <p class="card-text">Create a website to get the information,store it in Firebase and display it on the website.</p>
             <a class='text-dark' target="_blank" href='https://github.com/beem10101/React_FireBase'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
             </div>
-            <div class="col bg-dark">
+            <div class="col bg-dark " >
               <h5 class='text-white mt-2'>Made with:</h5>
               <div class='row mt-5 '>
                 <div class='col'>
@@ -279,17 +309,17 @@ const Myproject = () => {
           <div class="container">
             <div class="row align-items-start">
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img8} width="350" height="300"></img>
+                <img src={img8} class='border' width="350" height="300"></img>
                 <p>intro to programming with python</p>
                 <p>date:23/10/2021</p>
               </div>
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img5} width="350" height="300"></img>
+                <img src={img5} class='border' width="350" height="300"></img>
                 <p>สำรวจหลักสูตรและก้าวแรกcoding</p>
                 <p>date:27/02/2022</p>
               </div>
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img7} width="350" height="300"></img>
+                <img src={img7} class='border' width="350" height="300"></img>
                 <p>กิจกรรมlifelong learning</p>
                 <p>date:24/08/2022</p>
               </div>
@@ -299,17 +329,17 @@ const Myproject = () => {
             <br />
             <div class="row align-items-center">
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img3} width="350" height="300"></img>
+                <img src={img3} class='border' width="350" height="300"></img>
                 <p>การเขียนโปรแกรมเบื้องต้นด้วยPython</p>
                 <p>date:06/03/2022</p>
               </div>
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img2} width="350" height="300"></img>
+                <img src={img2} class='border' width="350" height="300"></img>
                 <p>การเขียนโปรแกรมเบื้องต้นด้วยHtml&Css</p>
                 <p>date:20/02/2022</p>
               </div>
               <div class="col mt-5" data-aos='zoom-in-up'>
-                <img src={img4} width="350" height="300"></img>
+                <img src={img4} class='border' width="350" height="300"></img>
                 <p>การทดสอบความรู้"คอมพิวเตอร์และสารสนเทศ"</p>
                 <p>รายวิชา"คอมพิวเตอร์และสารสนเทศเพื่องานอาชีพ"</p>
                 <p>date:17/01/2022</p>

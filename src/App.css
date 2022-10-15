@@ -131,7 +131,7 @@ canvas {
 .banner-section {
   padding: 80px;
   min-height: 60px;
-  background-color: var(--primary-white-gray);
+  background-color: var(--primary-white);
   border-radius: 10%;
 }
 
@@ -139,7 +139,7 @@ canvas {
   padding: 10px 10px 10px 10px;
   /* padding: 80px; */
   min-height: 60px;
-  background-color: var(--primary-white-gray);
+  background-color: var(--primary-white);
   border-radius: 3%;
 }
 
@@ -186,6 +186,6 @@ svg>polygon {
 
 }
 .followMeBar{
-  text-align: justify;
+  text-align: center;
   text-indent: 50px;
 }
