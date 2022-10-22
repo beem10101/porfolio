@@ -199,12 +199,12 @@ canvas {
   fill: #2d2d2d;
 }
 .bg-myskill {
-  background-color: #2d2d2d;
+  background-color: #3d3d3d;
 }
 
 
 .seperator-skew-bottom {
-  background-color: #2d2d2d;
+  background-color: #3d3d3d;
 }
 
 .seperator-skew-top {
@@ -212,9 +212,17 @@ canvas {
 }
 
 .seperator-skew-top>svg>polygon {
-  fill: #2d2d2d;
+  fill: #3d3d3d;
 }
 
 .seperator-skew-bottom>svg>polygon {
   fill: white;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }

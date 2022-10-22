@@ -21,6 +21,13 @@ import Excel      from '../Microsoft_Excel.png'
 import react_icon from '../react_logo.png'
 import firebase   from '../firebase_icon.png'
 import wireshark  from '../wireshark_logo.png'
+import java       from '../java.png'
+import JavaScript from '../JavaScript.png'
+import Nodejs     from '../nodejs2.png'
+import Bootstrap  from '../Bootstrap.png'
+import vscode     from '../vscode.png'
+import Git2        from '../Git2.png'
+import github     from '../github.png'
 // certificcate pic
 import img1 from '../portfolio/01.jpg'
 import img2 from '../portfolio/02.jpg'
@@ -327,7 +334,51 @@ const Myproject = () => {
                 <div className='HeaderTask'>
                   <div className='container'></div>
                   <h2 class='text-white'>Myskill</h2>
-                <div class='row m-5'>
+                  <div class='row m-4'>
+                  <div class='col'>
+                    <img src={java}
+                      width={65}
+                      height={60}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={JavaScript}
+                      width={50}
+                      height={50}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={Git2}
+                      width={60}
+                      height={60}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={github}
+                      width={60}
+                      height={60}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={Nodejs}
+                      width={60}
+                      height={70}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={Bootstrap}
+                      width={50}
+                      height={50}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={vscode}
+                      width={50}
+                      height={50}>
+                    </img>
+                  </div>
+                </div>
+                <div class='row m-4'>
                   <div class='col'>
                     <img src={python}
                       width={60}
@@ -358,20 +409,20 @@ const Myproject = () => {
                         height={60}>
                       </img>
                     </div>
+                  <div class='col'>
+                    <img src={wireshark}
+                      width={45}
+                      height={45}>
+                    </img>
                   </div>
-                <div class='row m-5'>
-                <div class='col'>
-                  <img src={wireshark}
-                    width={45}
-                    height={45}>
-                  </img>
-                </div>
-                <div class='col'>
-                  <img src={remix}
-                    width={50}
-                    height={50}>
-                  </img>
-                </div>
+                  <div class='col'>
+                    <img src={remix}
+                      width={50}
+                      height={50}>
+                    </img>
+                  </div>
+                  </div>
+                <div class='row m-4'>
                 <div class='col'>
                   <img src={sol}
                     width={45}
@@ -390,7 +441,7 @@ const Myproject = () => {
                     height={45}>
                   </img>
                 </div>
-              </div>
+                </div>
                 </div>
                 
               </div>
@@ -414,7 +465,7 @@ const Myproject = () => {
 
       <div className='HeaderTask bg-white'>
                   {/* Certificcate */}
-                  <h1 class='font-weight-bold'>certificcate</h1>
+                  <h1 class='font-weight-bold text-dark'>certificcate</h1>
           <div class="container">
             <div class="row align-items-start">
               <div class="col" data-aos='zoom-in-up'>

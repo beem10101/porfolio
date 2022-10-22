@@ -17,14 +17,10 @@ AOS.init();
     <div class='contrainner'>
       <div className='body-content'>
         <div className='main-info'>
-          <br/>
-          <br/>
-          <br/>
           <div>
             {/* grid about me */}
             <div class="row">
-              <div class="col-sm">
-                {/* Abuot me */}
+              {/* <div class="col-sm">
                 <div className='banner-about' data-aos='zoom-in-up'>
                 <div className='container'>
                   <br />
@@ -41,11 +37,10 @@ AOS.init();
                     </div>
                     <h3>Email:beem25301@gmail.com</h3>
                     <h3>GitHub : <a href="https://github.com/beem10101" target="_blank">Beem10101</a></h3>
-                    {/* <p>LinkedIn : <a href="https://www.linkedin.com/in/kriskanin/" target="_blank">Kriskanin Hengniran</a></p> */}
                   </div>
                 </div>
                 </div>
-              </div>
+              </div> */}
               <div class="col-sm">
                 {/* Education */}
                 <div className='banner-about' data-aos='fade-right'>

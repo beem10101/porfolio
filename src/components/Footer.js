@@ -1,7 +1,6 @@
 import React from 'react'
 import '../footer.css'
 import {FaGithub,FaFacebook} from "react-icons/fa";
-
 const Footer = () => {
   return (
     <div className='footer-container'>
@@ -19,7 +18,7 @@ const Footer = () => {
               <div className='icon'>
                 <a target='balnk' href='https://github.com/beem10101'><FaGithub /></a>
               </div>
-              <div className='icon'>
+              <div className='icon ml-3'>
                 <a  target='blank' href='https://www.facebook.com/beem.za.7330/'><FaFacebook/></a>
               </div>
             </div>

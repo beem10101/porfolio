@@ -3,10 +3,12 @@ import Typed from 'react-typed'
 
 import logo from '../logo.png'
 import Footer from './Footer'
+import Aboutme from './Aboutme'
 
 import img1 from '../portfolio/01.jpg'
 import img2 from '../portfolio/02.jpg'
 import img3 from '../portfolio/03.jpg'
+
 
 function Header() {
   return (
@@ -51,8 +53,6 @@ function Header() {
                   </div>
                 </div>
               </div>
-              <br/>
-              <br/>
             </div>
             {/* Slide pic */}
             {/* <div id='slides' class='carousel slide mb-5' data-ride='carousel'>
@@ -93,8 +93,8 @@ function Header() {
             </div> */}
           </div>
         </div>
-    <Footer/>
       </div>
+      <Aboutme />
     </div>
 
   )
