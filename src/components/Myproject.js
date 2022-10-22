@@ -10,18 +10,17 @@ import pyExcel from '../activity_pic/pyExcel.PNG'
 import contract1 from '../activity_pic/contract_1.PNG'
 import etherscan1 from '../activity_pic/etherscan_1.PNG'
 //icon
-import sol from '../sol.png'
-import css from '../cssLogo.png'
-import remix from '../remix.png'
-import html from '../htmlLogo.png'
-import python from '../python.webp'
-import tkinter from '../tkinter.png'
-import binance from '../binance-logo.png'
-import Excel from '../Microsoft_Excel.png'
+import sol        from '../sol.png'
+import css        from '../cssLogo.png'
+import remix      from '../remix.png'
+import html       from '../htmlLogo.png'
+import python     from '../python.webp'
+import tkinter    from '../tkinter.png'
+import binance    from '../binance-logo.png'
+import Excel      from '../Microsoft_Excel.png'
 import react_icon from '../react_logo.png'
-import firebase from '../firebase_icon.png'
-import wireshark from '../wireshark_logo.png'
-
+import firebase   from '../firebase_icon.png'
+import wireshark  from '../wireshark_logo.png'
 // certificcate pic
 import img1 from '../portfolio/01.jpg'
 import img2 from '../portfolio/02.jpg'
@@ -42,23 +41,24 @@ const Myproject = () => {
         <div className='HeaderTask'>
           <h1 class='font-weight-bold'>project</h1>
         </div>
-        <svg
-          x='0'
-          y='0'
-          viewBox='0 0 2560 100'>
-          <polygon points='2560 0 2560 100 0 100'>
-            <svg>
-
-            </svg>
-          </polygon>
-        </svg>
+        <div class='headerproject'>
+          <svg
+            x='0'
+            y='0'
+            viewBox='0 0 2560 100'>
+            <polygon points='2560 0 2560 100 0 100'>
+              <svg>
+              </svg>
+            </polygon>
+          </svg>
+        </div>
         <div className='HeaderTask bg-white'>
           <div>
           {/* Smart contract */}
           <div class="row">
             <div class='col-10'>
               <div class='card' data-aos='zoom-in-up' >
-                <h2>Smart contract</h2>
+                <h2 class='m-3'><b>Smart contract</b></h2>
                 {/* <img class="card-img-top" src={contract1} alt="Card image cap"></img> */}
                 <div class="card-body">
                 <div id='slides' class='carousel slide' data-ride='carousel'>
@@ -146,7 +146,7 @@ const Myproject = () => {
           <div class='row'>
             <div class='col-10'>
               <div class='card' data-aos='zoom-in-up'>
-                <h2>Web socket</h2>
+                <h2 class='m-3'><b>Web socket</b></h2>
                 <img class="card-img-top" src={wire1} alt="Card image cap"></img>
                 <div class="card-body">
                   {/* <h5 class="card-title">Card title</h5>/ */}
@@ -185,7 +185,7 @@ const Myproject = () => {
           <div class='row'>
             <div class='col-10'>
               <div class='card' data-aos='zoom-in-up'>
-                <h2>PyExcel</h2>
+                <h2 class='m-3'><b>PyExcel</b></h2>
                 <img class="card-img-top" src={pyExcel} alt="Card image cap"></img>
                 <div class="card-body">
                   {/* <h5 class="card-title">Card title</h5> */}
@@ -206,8 +206,8 @@ const Myproject = () => {
                 </div>
                 <div class='col'>
                   <img src={tkinter}
-                    width={35}
-                    height={35}>
+                    width={40}
+                    height={40}>
                   </img>
                 </div>
                 <div class='col'>
@@ -225,7 +225,7 @@ const Myproject = () => {
           <div class='row'>
             <div class='col-10'>
               <div class='card' data-aos='zoom-in-up'>
-                <h2>Firebase</h2>
+                <h2 class='m-3'><b>Firebase</b></h2>
                 <div class="card-body">
                   <div>
                     <div id='slides2' class='carousel slide' data-ride='carousel'>
@@ -304,8 +304,117 @@ const Myproject = () => {
           </div>
           <br />
           <br />
-          {/* Certificcate */}
-          <h1 class='font-weight-bold'>certificcate</h1>
+
+          <br/>
+          <br/>
+        </div>
+      </div>
+
+      <div className='headerproject'>
+            <div class='bg-white'>
+              <div className='seperator-skew-top'>
+                <svg
+                x='0'
+                y='0'
+                viewBox='0 0 2560 100'>
+                  <polygon points='2560 0 2560 100 0 100'>
+                    <svg></svg>
+                  </polygon>
+                </svg>
+              </div>
+            </div>
+              <div className='bg-myskill'>
+                <div className='HeaderTask'>
+                  <div className='container'></div>
+                  <h2 class='text-white'>Myskill</h2>
+                <div class='row m-5'>
+                  <div class='col'>
+                    <img src={python}
+                      width={60}
+                      height={60}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={html}
+                      width={60}
+                      height={60}>
+                    </img>
+                  </div>
+                  <div class='col'>
+                    <img src={css}
+                      width={43}
+                      height={58}>
+                    </img>
+                  </div>
+                    <div class='col'>
+                      <img src={react_icon}
+                        width={60}
+                        height={60}>
+                      </img>
+                    </div>
+                    <div class='col'>
+                      <img src={firebase}
+                        width={60}
+                        height={60}>
+                      </img>
+                    </div>
+                  </div>
+                <div class='row m-5'>
+                <div class='col'>
+                  <img src={wireshark}
+                    width={45}
+                    height={45}>
+                  </img>
+                </div>
+                <div class='col'>
+                  <img src={remix}
+                    width={50}
+                    height={50}>
+                  </img>
+                </div>
+                <div class='col'>
+                  <img src={sol}
+                    width={45}
+                    height={45}>
+                  </img>
+                </div>
+                <div class='col'>
+                  <img src={tkinter}
+                    width={45}
+                    height={45}>
+                  </img>
+                </div>
+                <div class='col'>
+                  <img src={Excel}
+                    width={45}
+                    height={45}>
+                  </img>
+                </div>
+              </div>
+                </div>
+                
+              </div>
+            
+            <div className="seperator-skew-bottom">
+            <svg
+              x="0"
+              y="0"
+              viewBox="0 0 2560 100"
+              preserveAspectRatio="none"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              >
+              <polygon points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+          
+
+            </div>
+          </div>
+
+
+      <div className='HeaderTask bg-white'>
+                  {/* Certificcate */}
+                  <h1 class='font-weight-bold'>certificcate</h1>
           <div class="container">
             <div class="row align-items-start">
               <div class="col" data-aos='zoom-in-up'>
@@ -346,9 +455,6 @@ const Myproject = () => {
               </div>
             </div>
           </div>
-          <br/>
-          <br/>
-        </div>
       </div>
       <Footer />
       </div>

@@ -172,9 +172,6 @@ canvas {
   color: var(--primary-dark) !important
 }
 
-svg>polygon {
-  fill: white;
-}
 
 .nav-color {
   background-color: #2d2d2d;
@@ -185,7 +182,39 @@ svg>polygon {
   max-height: 100%;
 
 }
-.followMeBar{
+
+.followMeBar {
   text-align: center;
   text-indent: 50px;
+}
+
+
+
+/* polygon */
+.headerproject>svg>polygon {
+  fill: rgb(255, 255, 255);
+}
+
+.myskill>svg>polygon {
+  fill: #2d2d2d;
+}
+.bg-myskill {
+  background-color: #2d2d2d;
+}
+
+
+.seperator-skew-bottom {
+  background-color: #2d2d2d;
+}
+
+.seperator-skew-top {
+  background-color: #ffffff;
+}
+
+.seperator-skew-top>svg>polygon {
+  fill: #2d2d2d;
+}
+
+.seperator-skew-bottom>svg>polygon {
+  fill: white;
 }
