@@ -16,22 +16,24 @@ const renderLabel = function (entry) {
 }
 const Circlechart = () => {
   return (
-    <div style={{ width: '100%', height: 300 }}>
-      <ResponsiveContainer>
+    <div className='rechart-circle'>
+    <div className='rechart-container-circle'>
+      <ResponsiveContainer width="100%" height="100%">
         <PieChart>
           <Pie dataKey="value" data={data} fill="#8884d8" label={renderLabel} >
             {data.map((entry, index) => (
-
-
+              
+              
               <Cell
               key={`cell-${index}`}
               fill={COLORS[index % COLORS.length]}
               />
-
+              
               ))}
          </Pie>
        </PieChart>
      </ResponsiveContainer>
+    </div>
     </div>
   )
 }

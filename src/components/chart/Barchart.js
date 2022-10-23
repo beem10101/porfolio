@@ -36,18 +36,20 @@ const dataBar = [
 const Barchart = () => {
   return (
     <div>
-      <ResponsiveContainer width={800} height={500}>
+    <div className='rechart'>
+    <div className='rechart-container'>
+      <ResponsiveContainer width="100%" height="100%">
         <BarChart
           width={500}
           height={300}
           data={dataBar}
           margin={{
-              top: 5,
-              right: 30,
-              left: 20,
-              bottom: 5,
-            }}
-            >
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5,
+          }}
+          >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="subject" />
           <YAxis domain={[0,4]}/>
@@ -58,6 +60,8 @@ const Barchart = () => {
           {/* <ReferenceLine y={3.0}  stroke="red" /> */}
         </BarChart>
       </ResponsiveContainer>
+    </div>
+    </div>
     </div>
     )
 }

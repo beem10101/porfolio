@@ -333,113 +333,147 @@ const Myproject = () => {
               <div className='bg-myskill'>
                 <div className='HeaderTask'>
                   <div className='container'></div>
-                  <h2 class='text-white'>Myskill</h2>
+                  <h1 class='font-weight-bold text-white'>Myskill</h1>
                   <div class='row m-4'>
+                    <div className='inner'>
                   <div class='col'>
-                    <img src={java}
+                    <img src={python}
                       width={65}
                       height={60}>
                     </img>
                   </div>
+                  </div>
+                    <div className='inner'>
+                  <div class='col'>
+                    <img src={java}
+                      width={60}
+                      height={50}>
+                    </img>
+                  </div>
+                  </div>
+                    <div className='inner'>
                   <div class='col'>
                     <img src={JavaScript}
-                      width={50}
-                      height={50}>
-                    </img>
-                  </div>
-                  <div class='col'>
-                    <img src={Git2}
                       width={60}
                       height={60}>
                     </img>
                   </div>
+                  </div>
+                    <div className='inner'>
                   <div class='col'>
-                    <img src={github}
-                      width={60}
-                      height={60}>
+                    <img src={html}
+                      width={65}
+                      height={65}>
                     </img>
                   </div>
+                  </div>
+                    <div className='inner'>
                   <div class='col'>
-                    <img src={Nodejs}
-                      width={60}
-                      height={70}>
+                    <img src={css}
+                      width={47}
+                      height={65}>
                     </img>
                   </div>
+                  </div>
+                    <div className='inner'>
                   <div class='col'>
-                    <img src={Bootstrap}
+                    <img src={sol}
                       width={50}
                       height={50}>
                     </img>
                   </div>
+                  </div>
+                    <div className='inner'>
                   <div class='col'>
                     <img src={vscode}
                       width={50}
                       height={50}>
                     </img>
                   </div>
+                  </div>
                 </div>
                 <div class='row m-4'>
+                    <div className='inner'>
                   <div class='col'>
-                    <img src={python}
+                    <img src={Git2}
                       width={60}
                       height={60}>
                     </img>
                   </div>
+                  </div>
+                    <div className='inner'>
                   <div class='col'>
-                    <img src={html}
+                    <img src={github}
                       width={60}
                       height={60}>
                     </img>
                   </div>
+                  </div>
+                    <div className='inner'>
                   <div class='col'>
-                    <img src={css}
-                      width={43}
+                    <img src={react_icon}
+                      width={55}
                       height={58}>
                     </img>
                   </div>
+                  </div>
+                      <div className='inner'>
                     <div class='col'>
-                      <img src={react_icon}
+                      <img src={Nodejs}
                         width={60}
                         height={60}>
                       </img>
                     </div>
+                    </div>
+                      <div className='inner'>
                     <div class='col'>
-                      <img src={firebase}
+                      <img src={Bootstrap}
                         width={60}
                         height={60}>
                       </img>
                     </div>
+                    </div>
+                    <div className='inner'>
                   <div class='col'>
                     <img src={wireshark}
-                      width={45}
-                      height={45}>
+                      width={55}
+                      height={55}>
                     </img>
                   </div>
+                  </div>
+                    <div className='inner'>
                   <div class='col'>
                     <img src={remix}
-                      width={50}
-                      height={50}>
+                      width={65}
+                      height={55}>
                     </img>
+                  </div>
                   </div>
                   </div>
                 <div class='row m-4'>
+                    <div className='inner'>
                 <div class='col'>
-                  <img src={sol}
-                    width={45}
-                    height={45}>
+                  <img src={firebase}
+                    width={55}
+                    height={55}>
                   </img>
                 </div>
+                </div>
+                  <div className='inner'>
                 <div class='col'>
                   <img src={tkinter}
                     width={45}
                     height={45}>
                   </img>
                 </div>
+                </div>
+                  <div className='inner'>
                 <div class='col'>
                   <img src={Excel}
                     width={45}
                     height={45}>
                   </img>
+                </div>
                 </div>
                 </div>
                 </div>

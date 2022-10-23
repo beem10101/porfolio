@@ -41,9 +41,23 @@ AOS.init();
                 </div>
                 </div>
               </div> */}
-              <div class="col-sm">
-                {/* Education */}
-                <div className='banner-about' data-aos='fade-right'>
+
+              {/* <div class="col-sm">
+                <div class="col-6">
+              <div className='banner-about ' data-aos='fade-left'>
+                <h3><b>About</b></h3>
+                <div class='mt-5 md-3 text-dark'>
+                <p class='followMeBar h3 mr-3 '>This page is about my programming abilities, educational background, and my traits.</p>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                </div>
+              </div>
+            </div>
+            </div> */}
+            
+                {/* <div className='banner-about' data-aos='fade-right'>
                   <div className="followMeBar fixed" >
                     <h1><b>Education</b></h1>
                     <div>
@@ -65,8 +79,7 @@ AOS.init();
                       </ul>
                     </div>
                   </div>
-                </div>
-              </div>
+                </div> */}
             </div>
           </div>
         </div>
@@ -74,7 +87,49 @@ AOS.init();
         <div>
           <div class="row mt-5">
             <div class="col-6">
-              <div className='banner-about ' data-aos='fade-left'>
+            <div className='banner-about' data-aos='fade-right'>
+              <div className="followMeBar fixed" >
+                <h1><b>Education</b></h1>
+                <div>
+                  <ul>
+                    <p>
+                      <strong className='textFont'> {" "}
+                        <h6 class='font-weight-bold'>
+                          Elementary School
+                        </h6>
+                        <h6 class='font-weight-bold text-primary ml-4'>
+                          pathomsuksa thammasat School
+                        </h6>
+                      </strong>{" "}
+                      (pathumthani, Thailand)2011-1016
+                    </p>
+                    <p>
+                      <strong className='textFont'> {" "}
+                        <h6 class='font-weight-bold'>
+                        Junior High School
+                        </h6>
+                        <h6 class='font-weight-bold text-primary ml-4'>
+                        thammasat klongluang withayakhom
+                        </h6>
+                      </strong>{" "}
+                      (pathumthani, Thailand)2017-1019
+                    </p>
+                    <p>
+                      <strong className='textFont'> {" "}
+                        <h6 class='font-weight-bold'>
+                        High School
+                        </h6>
+                        <h6 class='font-weight-bold text-primary ml-4'>
+                        thammasat klongluang withayakhom
+                        </h6>
+                      </strong>{" "}
+                      (pathumthani, Thailand)22020 - present
+                    </p>                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+              {/* <div className='banner-about ' data-aos='fade-left'>
                 <h3><b>About</b></h3>
                 <div class='mt-5 md-3 text-dark'>
                 <p class='followMeBar h3 mr-3 '>This page is about my programming abilities, educational background, and my traits.</p>
@@ -83,7 +138,7 @@ AOS.init();
                 <br/>
                 <br/>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div class="col-3">
               <div className='banner-about' data-aos='fade-up'>
@@ -105,6 +160,9 @@ AOS.init();
                     <b class='test-weight-bold'>GPX 5 term</b>
                   </h3>
                 <Barchart/>
+                <br/>
+                <br/>
+                <br/>
               </div>
             </div>
             <div class='col-6 col-md-4'>
