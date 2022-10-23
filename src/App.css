@@ -1,5 +1,7 @@
+/* Roboto Condesed */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
+/* Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
@@ -65,10 +67,11 @@ nav ul li {
 /* ---------------------Header------------------------ */
 .header-wrapper {
   position: relative;
+  overflow-x: hidden;
   /* background: url(web_bg.png) no-repeat;
   background-size: cover;
   background-position: center; */
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .header-wrapper .HeaderTask>h1 {
@@ -94,6 +97,7 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
+  font-family: 'Playfair Display', serif;
 }
 
 .HeaderTask {
@@ -109,7 +113,8 @@ nav ul li {
 
 .textFont {
   font-size: 20px;
-  font-family: "Roboto condesed", sans-serif;
+  /* font-family: "Roboto condesed", sans-serif; */
+  font-family: 'Playfair Display', serif;
 }
 
 canvas {
@@ -133,6 +138,7 @@ canvas {
   min-height: 60px;
   background-color: var(--primary-white);
   border-radius: 10%;
+  font-family: 'Playfair Display', serif;
 }
 
 .banner-about {
@@ -141,6 +147,7 @@ canvas {
   min-height: 60px;
   background-color: var(--primary-white);
   border-radius: 3%;
+  font-family: 'Playfair Display', serif;
 }
 
 /* ---------------------- */
@@ -155,6 +162,7 @@ canvas {
   color: var(--primary-dark);
   border: 1px solid white;
   display: inline-block;
+  font-family: 'Playfair Display', serif;
 }
 
 .carousel .carousel-indicators>li {
@@ -187,6 +195,7 @@ canvas {
   text-align: center;
   text-indent: 50px;
   margin: 0px;
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -229,10 +238,10 @@ html{
 }
 
 .inner img {
-  transition: all 5s ease;
+  transition: all 1s ease;
 }
 
-.inner:hover {
+.inner:hover img{
   transform: scale(1.5);
 }
 /* barchart */

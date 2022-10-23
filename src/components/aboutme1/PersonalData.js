@@ -12,12 +12,12 @@ const PersonalData = () => {
   ]
   return (
       <div>
-        <h3><b>personality</b></h3>
+        <h1><b>personality</b></h1>
          <div class="row">
-            <div class='col-12 col-md-6 mt-5 ml-2'>
+            <div class='col-12 col-md-6 ml-5'>
             <Radarchart/>
             </div>
-            <div class='col-6 col-md-4 m-5'>
+            <div class='col-6 col-md-4 mb-3'>
                 <ul class="list-group">
                   {testData.map((item,idx) =>(
                     <li class="list-group-item">

@@ -23,7 +23,7 @@ import firebase   from '../firebase_icon.png'
 import wireshark  from '../wireshark_logo.png'
 import java       from '../java.png'
 import JavaScript from '../JavaScript.png'
-import Nodejs     from '../nodejs2.png'
+import Nodejs     from '../nodejs1.png'
 import Bootstrap  from '../Bootstrap.png'
 import vscode     from '../vscode.png'
 import Git2        from '../Git2.png'
@@ -335,56 +335,56 @@ const Myproject = () => {
                   <div className='container'></div>
                   <h1 class='font-weight-bold text-white'>Myskill</h1>
                   <div class='row m-4'>
-                    <div className='inner'>
                   <div class='col'>
-                    <img src={python}
-                      width={65}
-                      height={60}>
+                    <div className='inner'>
+                      <img src={python}
+                        width={65}
+                        height={60}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={java}
                       width={60}
                       height={50}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={JavaScript}
                       width={60}
                       height={60}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={html}
                       width={65}
                       height={65}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={css}
                       width={47}
                       height={65}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={sol}
                       width={50}
                       height={50}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={vscode}
                       width={50}
                       height={50}>
@@ -393,56 +393,56 @@ const Myproject = () => {
                   </div>
                 </div>
                 <div class='row m-4'>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={Git2}
                       width={60}
                       height={60}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={github}
                       width={60}
                       height={60}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={react_icon}
                       width={55}
                       height={58}>
                     </img>
                   </div>
                   </div>
-                      <div className='inner'>
                     <div class='col'>
+                      <div className='inner'>
                       <img src={Nodejs}
-                        width={60}
+                        width={50}
                         height={60}>
                       </img>
                     </div>
                     </div>
-                      <div className='inner'>
                     <div class='col'>
+                      <div className='inner'>
                       <img src={Bootstrap}
                         width={60}
                         height={60}>
                       </img>
                     </div>
                     </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={wireshark}
                       width={55}
                       height={55}>
                     </img>
                   </div>
                   </div>
-                    <div className='inner'>
                   <div class='col'>
+                    <div className='inner'>
                     <img src={remix}
                       width={65}
                       height={55}>
@@ -451,24 +451,24 @@ const Myproject = () => {
                   </div>
                   </div>
                 <div class='row m-4'>
-                    <div className='inner'>
                 <div class='col'>
+                    <div className='inner'>
                   <img src={firebase}
                     width={55}
                     height={55}>
                   </img>
                 </div>
                 </div>
-                  <div className='inner'>
                 <div class='col'>
+                  <div className='inner'>
                   <img src={tkinter}
                     width={45}
                     height={45}>
                   </img>
                 </div>
                 </div>
-                  <div className='inner'>
                 <div class='col'>
+                  <div className='inner'>
                   <img src={Excel}
                     width={45}
                     height={45}>

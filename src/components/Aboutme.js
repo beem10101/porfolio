@@ -74,13 +74,13 @@ AOS.init();
 
             <div class="col">
               <div className='banner-about' data-aos='fade-up'>
-                <h3><b>Programming languages</b></h3>
+                <h1><b>Programming languages</b></h1>
                 <CirclechartProgramming/>
               </div>
             </div>
             <div class="col">
               <div className='banner-about' data-aos='fade-right'>
-                <h3><b>subject</b></h3>
+                <h1><b>subject</b></h1>
                 <CirclechartSubject/>
               </div>
             </div>
@@ -88,9 +88,9 @@ AOS.init();
           <div class="row mt-5">
             <div class="col-12 col-sm-6 col-md-8">
               <div className='banner-about' data-aos='fade-left'  data-aos-offset="200">
-                  <h3>
+                  <h1>
                     <b class='test-weight-bold'>GPX 5 term</b>
-                  </h3>
+                  </h1>
                 <Barchart/>
                 <br/>
                 <br/>

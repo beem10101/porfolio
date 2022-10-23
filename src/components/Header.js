@@ -1,7 +1,6 @@
 import React from 'react'
 import Typed from 'react-typed'
 
-import logo from '../logo.png'
 import prot_pic from '../port_pic2.jpg'
 import Footer from './Footer'
 import Aboutme from './Aboutme'
