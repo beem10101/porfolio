@@ -20,73 +20,13 @@ AOS.init();
           <div>
             {/* grid about me */}
             <div class="row">
-              {/* <div class="col-sm">
-                <div className='banner-about' data-aos='zoom-in-up'>
-                <div className='container'>
-                  <br />
-                  <br />
-                  <br />
-                  <img src={profile1} width="230" height="230" data-was-processed="true" ></img>
-                  <br />
-                  <br />
-                </div>
-                <div className='HeaderTask'>
-                  <div>
-                    <a className="anchor" id="about"></a>
-                    <div className="followWrap">
-                    </div>
-                    <h3>Email:beem25301@gmail.com</h3>
-                    <h3>GitHub : <a href="https://github.com/beem10101" target="_blank">Beem10101</a></h3>
-                  </div>
-                </div>
-                </div>
-              </div> */}
-
-              {/* <div class="col-sm">
-                <div class="col-6">
-              <div className='banner-about ' data-aos='fade-left'>
-                <h3><b>About</b></h3>
-                <div class='mt-5 md-3 text-dark'>
-                <p class='followMeBar h3 mr-3 '>This page is about my programming abilities, educational background, and my traits.</p>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                </div>
-              </div>
-            </div>
-            </div> */}
-            
-                {/* <div className='banner-about' data-aos='fade-right'>
-                  <div className="followMeBar fixed" >
-                    <h1><b>Education</b></h1>
-                    <div>
-                      <ul >
-                        <br/>
-                        <p >2011-1016:
-                          <strong className='textFont'> Elementary School:pathomsuksa thammasat School</strong> (pathumthani, Thailand)
-                        </p>
-                        <br/>
-                        <br/>
-                        <p >2017-1019 :
-                          <strong className='textFont'> Junior High School:thammasat klongluang withayakhom </strong> (pathumthani, Thailand)
-                        </p>
-                        <br/>
-                        <br/>
-                        <p >2020 - present :
-                          <strong className='textFont'> High School:thammasat klongluang withayakhom</strong> (pathumthani, Thailand)
-                        </p>
-                      </ul>
-                    </div>
-                  </div>
-                </div> */}
             </div>
           </div>
         </div>
       <div class="contrainer ">
         <div>
           <div class="row mt-5">
-            <div class="col-6">
+            <div class="col">
             <div className='banner-about' data-aos='fade-right'>
               <div className="followMeBar fixed" >
                 <h1><b>Education</b></h1>
@@ -129,24 +69,16 @@ AOS.init();
                 </div>
               </div>
             </div>
-              {/* <div className='banner-about ' data-aos='fade-left'>
-                <h3><b>About</b></h3>
-                <div class='mt-5 md-3 text-dark'>
-                <p class='followMeBar h3 mr-3 '>This page is about my programming abilities, educational background, and my traits.</p>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                </div>
-              </div> */}
             </div>
-            <div class="col-3">
+
+
+            <div class="col">
               <div className='banner-about' data-aos='fade-up'>
                 <h3><b>Programming languages</b></h3>
                 <CirclechartProgramming/>
               </div>
             </div>
-            <div class="col-3">
+            <div class="col">
               <div className='banner-about' data-aos='fade-right'>
                 <h3><b>subject</b></h3>
                 <CirclechartSubject/>
