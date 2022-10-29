@@ -1,14 +1,14 @@
-import React from 'react'
-import '../App.css'
+import React  from 'react'
 import Footer from './Footer'
+import '../App.css'
 
 // Activity pic
-import firebase1 from '../firebase_web1.png'
-import firebase2 from '../firebase_web2.png'
-import wire1 from '../activity_pic/wire1.PNG'
-import pyExcel from '../activity_pic/pyExcel.PNG'
-import contract1 from '../activity_pic/contract_1.PNG'
-import etherscan1 from '../activity_pic/etherscan_1.PNG'
+import firebase1    from '../firebase_web1.png'
+import firebase2    from '../firebase_web2.png'
+import wire1        from '../activity_pic/wire1.PNG'
+import pyExcel      from '../activity_pic/pyExcel.PNG'
+import contract1    from '../activity_pic/contract_1.PNG'
+import etherscan1   from '../activity_pic/etherscan_1.PNG'
 //icon
 import sol        from '../sol.png'
 import css        from '../cssLogo.png'
@@ -26,7 +26,7 @@ import JavaScript from '../JavaScript.png'
 import Nodejs     from '../nodejs1.png'
 import Bootstrap  from '../Bootstrap.png'
 import vscode     from '../vscode.png'
-import Git2        from '../Git2.png'
+import Git2       from '../Git2.png'
 import github     from '../github.png'
 // certificcate pic
 import img1 from '../portfolio/01.jpg'
@@ -37,7 +37,7 @@ import img5 from '../portfolio/05.jpg'
 import img6 from '../portfolio/06.jpg'
 import img7 from '../portfolio/lifelonglearning.png'
 import img8 from '../portfolio/skooldio.png'
-import AOS from 'aos';
+import AOS  from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
 
@@ -135,10 +135,10 @@ const Myproject = () => {
                   </img>
                 </div>
                 <div class='row'>
-                  <div class='col ml-2 mt-4'>
+                  <div class='col ml-3 mt-4'>
                     <img src={remix}
-                      width={60}
-                      height={60}>
+                      width={45}
+                      height={45}>
                     </img>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ const Myproject = () => {
                 <img class="card-img-top" src={wire1} alt="Card image cap"></img>
                 <div class="card-body">
                   {/* <h5 class="card-title">Card title</h5>/ */}
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Create client and server, let server web socket data from Binance with Binance API, and send the coin data package to the client.</p>
                   <a class='text-dark' target="_blank" href='https://github.com/beem10101/banance'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
               </div>
@@ -429,7 +429,7 @@ const Myproject = () => {
                       <div className='inner'>
                       <img src={Bootstrap}
                         width={60}
-                        height={60}>
+                        height={50}>
                       </img>
                     </div>
                     </div>
