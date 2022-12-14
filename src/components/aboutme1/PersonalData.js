@@ -4,11 +4,11 @@ import ProgressBar from './ProgressBar'
 
 const PersonalData = () => {
   const testData = [
-    {name:'mind',bgcolor:"#bd1919",completed:80,type:"INTROVERTED"},
-    {name:'energy',bgcolor:"#fac020",completed:20,type:"INTUITIVE"},
-    {name:'nature',bgcolor:"#37bd19",completed:53,type:"FEELING"},
-    {name:'tactics',bgcolor:"#1976bd",completed:20,type:"PROSPECTING"},
-    {name:'identity',bgcolor:"#bd19a4",completed:53,type:"ASSERTIVE"}
+    {name:'MIND',bgcolor:"#bd1919",completed:80,type:"introverted"},
+    {name:'ENERGY',bgcolor:"#fac020",completed:20,type:"intutive"},
+    {name:'NATURE',bgcolor:"#37bd19",completed:53,type:"feeling"},
+    {name:'TACTICS',bgcolor:"#1976bd",completed:20,type:"prospecting"},
+    {name:'IDENTITY',bgcolor:"#bd19a4",completed:53,type:"assertive"}
   ]
   return (
       <div>

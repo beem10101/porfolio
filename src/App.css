@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 /* Playfair Display */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgb(0, 0, 0);
   --primary-white-gray: #f5f3f3;
-  --primary-gray: #7f7f7f;
+  --primary-gray: #bebebe;
 }
 
 /************************* NAVBAR ***********************/
@@ -18,7 +19,7 @@
 }
 
 body {
-  font-family: "Roboto Condesed", sans-serif;
+  font-family:'Roboto Mono', monospace;
   /* background-color: var(--primary-dark); */
 }
 
@@ -86,7 +87,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Roboto Condesed", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .main-info h1 {
@@ -97,7 +98,7 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .HeaderTask {
@@ -107,14 +108,14 @@ nav ul li {
   position: relative;
   align-items: center;
   text-align: center;
-  font-family: "Roboto Condesed", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 
 .textFont {
   font-size: 20px;
   /* font-family: "Roboto condesed", sans-serif; */
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 canvas {
@@ -129,7 +130,7 @@ canvas {
 }
 
 .card-img-top {
-  height: 50vh;
+  height: 60vh;
   width: 50vh;
 }
 
@@ -138,7 +139,7 @@ canvas {
   min-height: 60px;
   background-color: var(--primary-white);
   border-radius: 10%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .banner-about {
@@ -146,8 +147,17 @@ canvas {
   /* padding: 80px; */
   min-height: 60px;
   background-color: var(--primary-white);
-  border-radius: 3%;
-  font-family: 'Playfair Display', serif;
+  border-radius: 2%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.banner-gray {
+  padding: 10px 10px 10px 10px;
+  /* padding: 80px; */
+  min-height: 60px;
+  background-color: var(--primary-gray);
+  border-radius: 2%;
+  font-family: 'Roboto Mono', monospace;
 }
 
 /* ---------------------- */
@@ -158,11 +168,11 @@ canvas {
 /* ---------------------- */
 
 .typed-name {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--primary-dark);
   border: 1px solid white;
   display: inline-block;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .carousel .carousel-indicators>li {
@@ -192,10 +202,10 @@ canvas {
 }
 
 .followMeBar {
-  text-align: center;
+  /* text-align: center; */
   text-indent: 50px;
   margin: 0px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 

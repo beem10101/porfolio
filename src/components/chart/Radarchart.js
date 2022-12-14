@@ -2,31 +2,31 @@ import React from 'react'
 import { Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis ,ResponsiveContainer} from 'recharts';
 const dataRadar = [
     {
-      subject: 'mind',
+      subject: 'MIND',
       A: 75,
       B: 110,
       fullMark: 150,
     },
     {
-      subject: 'energy',
+      subject: 'ENERGY',
       A: 70,
       B: 130,
       fullMark: 150,
     },
     {
-      subject: 'nature',
+      subject: 'NATURE',
       A: 60,
       B: 130,
       fullMark: 150,
     },
     {
-      subject: 'tactics',
+      subject: 'TACTICS',
       A: 64,
       B: 100,
       fullMark: 150,
     },
     {
-      subject: 'identity',
+      subject: 'IDENTITY',
       A: 57,
       B: 90,
       fullMark: 150,

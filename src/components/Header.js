@@ -36,9 +36,11 @@ function Header() {
                           <br/>
                           <br/>
                           <div className="followMeBar ">
-                            <h5>Hello, My name is Beem, I'm 17 years old.I am a person who has a calm personality and does not like chaos.
-                            I love programming Likes to solve problems using logical and rational thinking.I started to have an interest in programming in grade 4.
-                            and have tried writing different languages ​​such as python java HTML CSS javascript </h5>
+                            <h5 class="text-left">Hello, My name is Beem, I'm 17 years old.
+                            I am a person who has a calm personality and does not like chaos.
+                            I love programming Likes to solve problems using logical and rational thinking.
+                            I started to have an interest in programming in grade 4.
+                            and have tried writing different languages ​​such as python java HTML CSS javascript thankyou for visiting my website </h5>
                           </div>
                         </div>
                       </div>
@@ -51,52 +53,17 @@ function Header() {
                       <br/>
                       <br/>
                       <br/>
-                      <div className='followMeBar'>
-                      <h3>Siravit Thawornsap</h3>
-                        <h5>Email:beem25301@gmail.com</h5>
-                        <h5>GitHub : <a href="https://github.com/beem10101" target="_blank">Beem10101</a></h5>  
+                      <div className='banner-gray'>
+                        <div className='followMeBar' class="mr-3">
+                        <h3>Siravit Thawornsap</h3>
+                          <h5>Email:beem25301@gmail.com</h5>
+                          <h5>GitHub : <a href="https://github.com/beem10101" target="_blank">Beem10101</a></h5>  
+                        </div>
                       </div>
                   </div>
                 </div>
               </div>
             </div>
-            {/* Slide pic */}
-            {/* <div id='slides' class='carousel slide mb-5' data-ride='carousel'>
-              <ul class='carousel-indicators'>
-                <li data-target='#slides' data-slide-to='0' class='active'></li>
-                <li data-target='#slides' data-slide-to='1' ></li>
-                <li data-target='#slides' data-slide-to='2' ></li>
-              </ul>
-              <div class='carousel-inner'>
-                <div class='carousel-item active'>
-                  <img src={img1} width='900' height='600'></img>                                  
-                </div>
-                <div class='carousel-item'>
-                  <img src={img2} width='900' height='600'></img>                                  
-                </div>
-                <div class='carousel-item'>
-                  <img src={img3} width='900' height='600'></img>                                  
-                </div>
-                <a class='carousel-control-prev' 
-                    href='#slides'
-                    role='button'
-                    data-slide='prev'>
-                  <span class='carousel-control-prev-icon'
-                        aria-hidden='true'>
-                  </span>
-                  <span class='sr-only'>Previous</span>
-                </a>
-                <a class='carousel-control-next' 
-                    href='#slides'
-                    role='button'
-                    data-slide='next'>
-                  <span class='carousel-control-next-icon'
-                        aria-hidden='true'>
-                  </span>
-                  <span class='sr-only'>Next</span>
-                </a>
-              </div>
-            </div> */}
           </div>
         </div>
         <Aboutme />

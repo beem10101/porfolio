@@ -34,9 +34,9 @@ import img2 from '../portfolio/02.jpg'
 import img3 from '../portfolio/03.jpg'
 import img4 from '../portfolio/04.png'
 import img5 from '../portfolio/05.jpg'
-import img6 from '../portfolio/06.jpg'
 import img7 from '../portfolio/lifelonglearning.png'
 import img8 from '../portfolio/skooldio.png'
+import img9 from '../portfolio/school_cer.jpg'
 import AOS  from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -77,11 +77,11 @@ const Myproject = () => {
                       <div className='card-inner'>
 
                       <div class='carousel-item active'>
-                        <img src={contract1} width='1000' height='600'></img>
+                        <img src={contract1} width='1200' height='600'></img>
 
                       </div>
                       <div class='carousel-item'>
-                        <img src={etherscan1} width='1000' height='600'></img>
+                        <img src={etherscan1} width='1200' height='600'></img>
                       </div>
                       <a class='carousel-control-prev'
                         // href='#slides'
@@ -104,7 +104,8 @@ const Myproject = () => {
                       </div>
                     </div>
                   </div>
-                  <h5 class="card-title">Smart Contract miniProject and deploying on rinkeby</h5>
+                  <p class="card-title">write a smart contract and generates a token,The token can be transferred to other wallets.</p>
+                  <p>And anyone can create a wallet name and connect to an existing font-end deployment at the rinkeby network with sol</p>
                   {/* <h5 class="card-title">deploying on rinkeby</h5> */}
                   {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
                   {/* <button type="button" class="btn btn-outline-success">website</button> */}
@@ -158,7 +159,7 @@ const Myproject = () => {
                 <div class="card-body">
                   {/* <h5 class="card-title">Card title</h5>/ */}
                   <p class="card-text">Create client and server, let server web socket data from Binance with Binance API, and send the coin data package to the client.</p>
-                  <a class='text-dark' target="_blank" href='https://github.com/beem10101/banance'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
+                  <a class='text-dark' target="_blank" href='https://github.com/beem10101/binance'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
               </div>
             </div>
@@ -244,11 +245,11 @@ const Myproject = () => {
                         <div className='card-inner'>
 
                         <div class='carousel-item active'>
-                          <img src={firebase1} width='1000' height='600'></img>
+                          <img src={firebase1} width='1200' height='600'></img>
 
                         </div>
                         <div class='carousel-item'>
-                          <img src={firebase2} width='1000' height='600'></img>
+                          <img src={firebase2} width='1200' height='600'></img>
                         </div>
                         <a class='carousel-control-prev'
                           role='button'
@@ -271,11 +272,12 @@ const Myproject = () => {
                       </div>
                     </div>
                   </div>
+                  <br/>
+                  <p class="card-text">Create a website to get the information,store it in Firebase and display it on the website.</p>
+                  <a class='text-dark' target="_blank" href='https://github.com/beem10101/React_FireBase'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
                 </div>
               </div>
             {/* <h5 class="card-title">Card title</h5> */}
-            <p class="card-text">Create a website to get the information,store it in Firebase and display it on the website.</p>
-            <a class='text-dark' target="_blank" href='https://github.com/beem10101/React_FireBase'><button type="button" class="btn btn-outline-secondary ml-3">source code</button></a>
             </div>
             <div class="col bg-dark " >
               <h5 class='text-white mt-2'>Made with:</h5>
@@ -513,9 +515,10 @@ const Myproject = () => {
                 <p>date:27/02/2022</p>
               </div>
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img7} class='border' width="350" height="300"></img>
-                <p>กิจกรรมlifelong learning</p>
-                <p>date:24/08/2022</p>
+                <img src={img9} class='border' width="350" height="300"></img>
+                <p>เข้าร่วมกิจกรรมค่ายวิชาการสเต็มศึกษา stem camp</p>
+                <p>เข้าร่วมกิจกรรมค่ายวิชาการสเต็มศึกษา stem camp</p>
+                <p>date:18/03/2020</p>
               </div>
             </div>
             <br />
@@ -537,6 +540,11 @@ const Myproject = () => {
                 <p>การทดสอบความรู้"คอมพิวเตอร์และสารสนเทศ"</p>
                 <p>รายวิชา"คอมพิวเตอร์และสารสนเทศเพื่องานอาชีพ"</p>
                 <p>date:17/01/2022</p>
+              </div>
+              <div class="col mt-5" data-aos='zoom-in-up'>
+                <img src={img7} class='border' width="350" height="300"></img>
+                <p>เข้าร่วมกิจกรรมlifelong learning</p>
+                <p>date:24/08/2022</p>
               </div>
             </div>
           </div>
