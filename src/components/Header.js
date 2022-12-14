@@ -49,7 +49,7 @@ function Header() {
                 </div>
               </div>
                   <div class="col-lg-6">
-                    <img src={prot_pic} width="400" height="400" data-was-processed="true" ></img>
+                    <img className='frame-cover' src={prot_pic} width="400" height="400" data-was-processed="true" ></img>
                       <br/>
                       <br/>
                       <br/>

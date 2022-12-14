@@ -11,10 +11,10 @@ const Gpx = () => {
       <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5 > Computer </h5>
+              <h5 > science and technology </h5>
             </div>
             <div class='col-6 col-md-4 text-primary'>
-              <h5 class='font-weight-bold text-primary'> 4.0 </h5>
+              <h5 class='font-weight-bold text-primary'> 3.97 </h5>
             </div>
           </div>
         </li>
@@ -24,17 +24,7 @@ const Gpx = () => {
               <h5 > Math </h5>
             </div>
             <div class='col-6 col-md-4 text-primary'>
-              <h5 class='font-weight-bold text-primary'> 3.5 </h5>
-            </div>
-          </div>
-        </li>
-      <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
-          <div class='row'>
-            <div class='col-12 col-md-8'>
-              <h5> Additional mathematics </h5>
-            </div>
-            <div class='col-6 col-md-4 text-primary'>
-              <h5 class='font-weight-bold text-primary'> 3.0 </h5>
+              <h5 class='font-weight-bold text-primary'> 3.66 </h5>
             </div>
           </div>
         </li>
@@ -44,7 +34,7 @@ const Gpx = () => {
               <h5> Thai </h5>
             </div>
             <div class='col-6 col-md-4'>
-              <h5 class='text-primary'> 4.0 </h5>
+              <h5 class='font-weight-bold text-primary '> 3.80 </h5>
             </div>
           </div>
         </li>
@@ -54,17 +44,17 @@ const Gpx = () => {
               <h5> English </h5>
             </div>
             <div class='col-6 col-md-4'>
-              <h5 class='text-primary'> 4.0 </h5>
+              <h5 class='font-weight-bold text-primary'> 4.0 </h5>
             </div>
           </div>
         </li>
         <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
           <div class='row'>
             <div class='col-12 col-md-8'>
-              <h5> science </h5>
+              <h5> Art </h5>
             </div>
             <div class='col-6 col-md-4'>
-              <h5 class='text-primary'> 4.0 </h5>
+              <h5 class='font-weight-bold text-primary'> 4.0 </h5>
             </div>
           </div>
         </li>
@@ -74,7 +64,17 @@ const Gpx = () => {
               <h5> social studies </h5>
             </div>
             <div class='col-6 col-md-4'>
-              <h5 class='text-primary'> 4.0 </h5>
+              <h5 class='font-weight-bold text-primary'> 4.0 </h5>
+            </div>
+          </div>
+        </li>
+        <li class="list-group-item border-top-0 border-left-0 border-right-0 bg-transparent">
+          <div class='row'>
+            <div class='col-12 col-md-8'>
+              <h5> health and hygeine </h5>
+            </div>
+            <div class='col-6 col-md-4'>
+              <h5 class='font-weight-bold text-primary'> 4.0 </h5>
             </div>
           </div>
         </li>

@@ -5,31 +5,31 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip ,ReferenceLine} fro
 
 const dataBar = [
     {
-      subject: 'Computer',
-      grade: 4.0,
+      subject: 'Science and technology',
+      grade: 3.97,
     },
     {
       subject: 'Math',
-      grade: 3.5,
-    },
-    {
-      subject: 'Additional Math',
-      grade: 3.0,
+      grade: 3.66,
     },
     {
       subject: 'Thai',
-      grade: 4.0,
+      grade: 3.80,
     },
     {
       subject: 'English',
       grade: 4.0,
     },
     {
-      subject: 'Science',
+      subject: 'Additional Math',
       grade: 4.0,
     },
     {
       subject: 'Social',
+      grade: 4.0,
+    },
+    {
+      subject: 'Health and hygeine',
       grade: 4.0,
     },
   ];
