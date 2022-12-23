@@ -9,7 +9,6 @@ import CirclechartProgramming from './chart/CirclechartProgramming';
 import CirclechartSubject from './chart/CirclechartSubject';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
 AOS.init();
 
   const Aboutme = () => {
@@ -89,7 +88,7 @@ AOS.init();
             <div class="col-12 col-sm-6 col-md-8">
               <div className='banner-about' data-aos='fade-left'  data-aos-offset="200">
                   <h1>
-                    <b class='test-weight-bold'>GPX 5 term</b>
+                    <b class='test-weight-bold'>GPAX 5 term</b>
                   </h1>
                 <Barchart/>
                 <br/>
