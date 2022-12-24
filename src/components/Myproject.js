@@ -135,8 +135,8 @@ const Myproject = () => {
                     height={40}>
                   </img>
                 </div>
-                <div class='row'>
-                  <div class='col ml-3 mt-4'>
+                <div class='row mt-4 ml-1'>
+                  <div class='col'>
                     <img src={remix}
                       width={45}
                       height={45}>
