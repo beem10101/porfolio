@@ -36,7 +36,8 @@ import img4 from '../portfolio/04.png'
 import img5 from '../portfolio/05.jpg'
 import img7 from '../portfolio/lifelonglearning.png'
 import img8 from '../portfolio/skooldio.png'
-import img9 from '../portfolio/school_cer.jpg'
+import img9 from '../portfolio/school_cer.jpg' 
+import img10 from '../portfolio/010.jpg'
 import AOS  from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -505,9 +506,9 @@ const Myproject = () => {
           <div class="container">
             <div class="row align-items-start">
               <div class="col" data-aos='zoom-in-up'>
-                <img src={img8} class='border' width="350" height="300"></img>
-                <p>intro to programming with python</p>
-                <p>date:23/10/2021</p>
+                <img src={img10} class='border' width="350" height="300"></img>
+                <p>ได้รับเกียรติบัตร จากการเข้าร่วมการแข่งขันงานศิลปหัตหัถกรรมนักเรียนปีการศึกษา 2565</p>
+                <p>date:25/12/2022</p>
               </div>
               <div class="col" data-aos='zoom-in-up'>
                 <img src={img5} class='border' width="350" height="300"></img>
@@ -545,6 +546,11 @@ const Myproject = () => {
                 <img src={img7} class='border' width="350" height="300"></img>
                 <p>เข้าร่วมกิจกรรมlifelong learning</p>
                 <p>date:24/08/2022</p>
+              </div>
+              <div class="col" data-aos='zoom-in-up'>
+                <img src={img8} class='border' width="350" height="300"></img>
+                <p>intro to programming with python</p>
+                <p>date:23/10/2021</p>
               </div>
             </div>
           </div>
